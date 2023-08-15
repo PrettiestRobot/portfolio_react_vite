@@ -1,3 +1,4 @@
+import "../styles/Contact.css";
 import { useState } from "react";
 
 function Contact() {
@@ -61,33 +62,42 @@ function Contact() {
   return (
     <div className="contact">
       <h1>Contact</h1>
-      <form className="contact-form" onSubmit={handleFormSubmit}>
-        <label htmlFor="name">Name:</label>
-        <input
-          type="text"
-          name="name"
-          placeholder="Enter your name"
-          value={name}
-          onChange={handleInputChange}
-        />
-        {errors.name && <div>{errors.name}</div>}
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          name="email"
-          placeholder="Enter your email"
-          value={email}
-          onChange={handleInputChange}
-        />
-        {errors.email && <div>{errors.email}</div>}
-        <label htmlFor="message">Message:</label>
-        <textarea
-          name="message"
-          placeholder="Enter your message"
-          value={message}
-          onChange={handleInputChange}
-        />
-        {errors.message && <div>{errors.message}</div>}
+      <form className="contact-form flex-column" onSubmit={handleFormSubmit}>
+        <div className="flex-column">
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            value={name}
+            onChange={handleInputChange}
+          />
+          {errors.name && <div className="error-message">{errors.name}</div>}
+        </div>
+        <div className="flex-column">
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            value={email}
+            onChange={handleInputChange}
+          />
+          {errors.email && <div className="error-message">{errors.email}</div>}
+        </div>
+        <div className="flex-column">
+          <label htmlFor="message">Message:</label>
+          <textarea
+            name="message"
+            placeholder="Enter your message"
+            value={message}
+            onChange={handleInputChange}
+          />
+          {errors.message && (
+            <div className="error-message">{errors.message}</div>
+          )}
+        </div>
+
         <button type="submit">Submit</button>
       </form>
     </div>

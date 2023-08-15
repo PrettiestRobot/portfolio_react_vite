@@ -1,13 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
 h1 {
   margin: 0 0 1rem 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .projects-container {
@@ -27,7 +24,6 @@ h1 {
 
 .project {
   display: flex;
-
   width: calc(50% - 1vw);
   aspect-ratio: 16/9;
   justify-content: center;
@@ -38,11 +34,13 @@ h1 {
   position: relative;
   width: 100%;
   height: 100%;
+  color: white;
 }
 
 .project-card:hover {
   width: 95%;
   height: 95%;
+  transition: 1s;
 }
 
 .project img {
@@ -78,5 +76,9 @@ h1 {
 
 .project-card-head img {
   max-width: 3rem;
-  color: white;
+  opacity: 0.5;
+}
+
+.project-card-head img:hover {
+  opacity: 1;
 }
