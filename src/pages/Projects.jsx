@@ -2,7 +2,7 @@ import "../styles/Projects.css";
 import sample1 from "../assets/sample1_screenshot.png";
 import sample2 from "../assets/marvel_longbox_screenshot.png";
 import sample3 from "../assets/dear_diary_screenshot.jpg";
-import sample4 from "../assets/art_square_screenshot.png";
+import sample4 from "../assets/artsquare_screenshot.png";
 import githubLogo from "../assets/github-mark.svg";
 import placeholder from "../assets/patrick-tomasso-QMDap1TAu0g-unsplash.jpg";
 
