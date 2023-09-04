@@ -4,7 +4,7 @@ import sample2 from "../assets/marvel_longbox_screenshot.png";
 import sample3 from "../assets/dear_diary_screenshot.jpg";
 import sample4 from "../assets/artsquare_screenshot.png";
 import githubLogo from "../assets/github-mark.svg";
-import placeholder from "../assets/patrick-tomasso-QMDap1TAu0g-unsplash.jpg";
+// import placeholder from "../assets/patrick-tomasso-QMDap1TAu0g-unsplash.jpg";
 
 function Projects() {
   return (
@@ -90,13 +90,13 @@ function Projects() {
             <div className="project-info">
               <div className="project-card-head">
                 <a
-                  href="https://64f61c9212b13803dc748dac--majestic-moonbeam-1117aa.netlify.app/"
+                  href="https://art-square-fd6773213118.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <h2>Art Sqaure</h2>
                 </a>
-                <a href="https://github.com/PrettiestRobot">
+                <a href="https://github.com/ivyreed/Art-Square">
                   <img src={githubLogo}></img>
                 </a>
               </div>
