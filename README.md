@@ -1,4 +1,12 @@
-# React + Vite
+# Thomas Rose-Meyer Portfolio
+
+https://64f61c9212b13803dc748dac--majestic-moonbeam-1117aa.netlify.app/
+
+## Description
+
+A portfolio for Thomas Rose-Meyer built in React + Vite.
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

@@ -2,6 +2,7 @@ import "../styles/Projects.css";
 import sample1 from "../assets/sample1_screenshot.png";
 import sample2 from "../assets/marvel_longbox_screenshot.png";
 import sample3 from "../assets/dear_diary_screenshot.jpg";
+import sample4 from "../assets/art_square_screenshot.png";
 import githubLogo from "../assets/github-mark.svg";
 import placeholder from "../assets/patrick-tomasso-QMDap1TAu0g-unsplash.jpg";
 
@@ -88,16 +89,20 @@ function Projects() {
           <div className="project-card">
             <div className="project-info">
               <div className="project-card-head">
-                <a href="">
-                  <h2>Under Construction</h2>
+                <a
+                  href="https://64f61c9212b13803dc748dac--majestic-moonbeam-1117aa.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h2>Art Sqaure</h2>
                 </a>
-                {/* <a href="https://github.com/PrettiestRobot">
+                <a href="https://github.com/PrettiestRobot">
                   <img src={githubLogo}></img>
-                </a> */}
+                </a>
               </div>
-              <h3>Check back soon!</h3>
+              <h3>MERN stack REACt + Vite</h3>
             </div>
-            <img src={placeholder}></img>
+            <img src={sample4}></img>
           </div>
         </div>
       </div>
