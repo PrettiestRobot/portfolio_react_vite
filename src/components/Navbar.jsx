@@ -1,5 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
-import "../styles/Navbar.css";
+import githubLogo from "../assets/github-mark.svg";
+import linkedinLogo from "../assets/linkedin.svg";
+import facebookLogo from "../assets/facebook.svg";
+import LogoType from "../assets/Brand_Logotype.svg";
 
 function Navbar() {
   const currentPage = useLocation().pathname;
@@ -7,51 +10,31 @@ function Navbar() {
   return (
     <nav className="nav">
       <Link to="/" className="site-title nav-link name">
-        <span className="brand-span-c"> &lt; </span>
-        <span className="brand-span-a">Thomas</span> Rose
-        <span className="brand-span-b">: Meyer</span>
-        <span className="brand-span-c"> /&gt; </span>
+        <img className="nav-logotype" src={LogoType} />
       </Link>
-      <ul>
-        <li>
-          <Link
-            to="/"
-            className={currentPage === "/" ? "nav-link nav-active" : "nav-link"}
-          >
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/projects"
-            className={
-              currentPage === "/projects" ? "nav-link nav-active" : "nav-link"
-            }
-          >
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/contact"
-            className={
-              currentPage === "/contact" ? "nav-link nav-active" : "nav-link"
-            }
-          >
-            Contact
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/resume"
-            className={
-              currentPage === "/resume" ? "nav-link nav-active" : "nav-link"
-            }
-          >
-            Resume
-          </Link>
-        </li>
-      </ul>
+      <div className="nav-links">
+        <a
+          href="https://github.com/PrettiestRobot"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={githubLogo}></img>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/thomas-rose-meyer-58b257104/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={linkedinLogo}></img>
+        </a>
+        <a
+          href="https://www.facebook.com/prettiestrobot/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={facebookLogo}></img>
+        </a>
+      </div>
     </nav>
   );
 }

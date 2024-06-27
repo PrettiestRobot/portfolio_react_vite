@@ -1,15 +1,6 @@
-:root {
-  /*  color scheme */
-  --primary: rgb(255, 251, 243);
-  --secondary: rgb(255, 43, 43);
-  --alt: rgb(95, 172, 255);
-  --light: white;
-  --dark: rgb(20, 20, 20);
-}
-
 * {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 h1,
@@ -23,10 +14,130 @@ h6 {
 
 body {
   margin: 0;
-  background-color: rgb(28, 43, 60);
+  background-color: rgb(252, 249, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flex-column {
   display: flex;
   flex-direction: column;
 }
+
+main {
+  width: 980px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+.nav .nav-links {
+  display: flex;
+  gap: 1rem;
+}
+.nav .nav-links img {
+  height: 2rem;
+  opacity: 1;
+  transition: 1s;
+}
+.nav .nav-links img:hover {
+  opacity: 0.75;
+}
+
+.projects-gallery {
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.projects-gallery .gallery-nav {
+  display: flex;
+  position: absolute;
+  width: 1015px;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.projects-gallery .gallery-nav .gallery-nav-btn {
+  color: #fff;
+  background-color: #231f20;
+  border: none;
+  width: 2rem;
+  aspect-ratio: 1/1;
+  border-radius: 25px;
+  pointer-events: all;
+  opacity: 0.5;
+}
+.projects-gallery .gallery-nav .gallery-nav-active {
+  background-color: #d32827;
+}
+.projects-gallery .gallery-nav .gallery-nav-active:hover {
+  opacity: 1;
+}
+.projects-gallery .gallery-container {
+  position: relative;
+  display: grid;
+  gap: 16px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+}
+.projects-gallery .gallery-container .gallery-item {
+  width: 316px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+.projects-gallery .gallery-container .gallery-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.2s ease;
+}
+.projects-gallery .gallery-container .gallery-item:hover img {
+  transform: scale(1.1);
+  transition: transform 8s ease-out;
+  transition-delay: 0.5s;
+}
+.projects-gallery:hover .gallery-nav {
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+
+.gallery-block {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: #231f20;
+  margin-top: 1rem;
+}
+.gallery-block .block-resume {
+  background-color: #d32827;
+  height: 100%;
+  aspect-ratio: 1/1;
+  padding: 1rem;
+}
+.gallery-block .block-resume button {
+  background-color: #231f20;
+  border-radius: 75px;
+  font-family: "Playfair";
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border: none;
+}/*# sourceMappingURL=App.css.map */
