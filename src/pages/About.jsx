@@ -1,5 +1,5 @@
 import self from "../assets/self.png";
-import "../styles/About.css";
+import "../styles/App.css";
 
 export default function About() {
   return (

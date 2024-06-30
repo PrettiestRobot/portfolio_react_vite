@@ -1,6 +1,13 @@
 import { useRef, useState } from "react";
+import ShowCard from "./ShowCard";
 
 function Gallery({ data }) {
+  const [selectedData, setSelectedData] = useState(null);
+  const [loaded, setLoaded] = useState(false);
+  const handleImageLoad = () => {
+    setLoaded(true);
+  };
+
   const horzGalleryRef = useRef(null);
   const [leftBtnActive, setLeftBtnActive] = useState(false);
   const [rightBtnActive, setRightBtnActive] = useState(true);
@@ -23,6 +30,10 @@ function Gallery({ data }) {
     setRightBtnActive(false);
   };
 
+  const handleItemClick = (itemData) => {
+    setSelectedData(itemData);
+  };
+
   return (
     <div className="projects-gallery">
       <div className="gallery-nav">
@@ -43,7 +54,10 @@ function Gallery({ data }) {
           {">"}
         </button>
       </div>
-      <div className="gallery-container" ref={horzGalleryRef}>
+      <div
+        className={`gallery-container ${loaded ? "loaded" : ""}`}
+        ref={horzGalleryRef}
+      >
         {data.map((data) => (
           <div
             key={data.id}
@@ -51,10 +65,19 @@ function Gallery({ data }) {
               gridArea: `${data.row} / ${data.column}`,
             }}
             className="gallery-item"
+            onClick={() => handleItemClick(data)}
           >
-            <img src={data.image} />
+            <img onLoad={handleImageLoad} src={data.image} />
           </div>
         ))}
+      </div>
+      <div className={`show-card-container ${selectedData ? "active" : ""}`}>
+        {selectedData && (
+          <ShowCard
+            cardData={selectedData}
+            handleCardClose={() => setSelectedData(null)}
+          />
+        )}
       </div>
     </div>
   );

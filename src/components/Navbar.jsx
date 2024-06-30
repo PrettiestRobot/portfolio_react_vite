@@ -9,31 +9,73 @@ function Navbar() {
 
   return (
     <nav className="nav">
-      <Link to="/" className="site-title nav-link name">
-        <img className="nav-logotype" src={LogoType} />
-      </Link>
-      <div className="nav-links">
-        <a
-          href="https://github.com/PrettiestRobot"
-          target="_blank"
-          rel="noopener noreferrer"
+      <div className="nav-container">
+        <Link to="/" className="site-title nav-link name">
+          <img className="nav-logotype" src={LogoType} />
+        </Link>
+        <div className="nav-links">
+          <Link
+            to="/"
+            className={`about-link ${currentPage === "/" ? "active" : ""}`}
+          >
+            About
+          </Link>
+          <a
+            href="https://github.com/PrettiestRobot"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={githubLogo}></img>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/thomas-rose-meyer-58b257104/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={linkedinLogo}></img>
+          </a>
+          <a
+            href="https://www.facebook.com/prettiestrobot/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={facebookLogo}></img>
+          </a>
+        </div>
+      </div>
+      <div className="nav-btn-container">
+        <Link
+          to="/commercial"
+          className={`nav-page-link b1 ${
+            currentPage === "/commercial" ? "active" : ""
+          }`}
         >
-          <img src={githubLogo}></img>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/thomas-rose-meyer-58b257104/"
-          target="_blank"
-          rel="noopener noreferrer"
+          Commercial
+        </Link>
+        <Link
+          to="/personal"
+          className={`nav-page-link b2 ${
+            currentPage === "/personal" ? "active" : ""
+          }`}
         >
-          <img src={linkedinLogo}></img>
-        </a>
-        <a
-          href="https://www.facebook.com/prettiestrobot/"
-          target="_blank"
-          rel="noopener noreferrer"
+          Personal
+        </Link>
+        <Link
+          to="/motion"
+          className={`nav-page-link b3 ${
+            currentPage === "/motion" ? "active" : ""
+          }`}
         >
-          <img src={facebookLogo}></img>
-        </a>
+          Motion
+        </Link>
+        <Link
+          to="/web"
+          className={`nav-page-link b4 ${
+            currentPage === "/web" ? "active" : ""
+          }`}
+        >
+          Web
+        </Link>
       </div>
     </nav>
   );

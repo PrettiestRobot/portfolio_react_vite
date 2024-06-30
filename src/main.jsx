@@ -7,7 +7,19 @@ import Projects from "./pages/Projects";
 
 import Resume from "./pages/Resume";
 import data from "./data/data.json";
-const { commercial } = data;
+import data2 from "./data/data.json";
+const {
+  commercial,
+  personal,
+  motion,
+  web,
+  commercialBlock,
+  personalBlock,
+  motionBlock,
+  webBlock,
+} = data;
+
+const { galleryData } = data2;
 
 const router = createBrowserRouter([
   {
@@ -16,8 +28,20 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <About /> },
       {
-        path: "/projects",
-        element: <Projects data={commercial} />,
+        path: "/commercial",
+        element: <Projects data={commercial} blockData={commercialBlock} />,
+      },
+      {
+        path: "/personal",
+        element: <Projects data={personal} blockData={personalBlock} />,
+      },
+      {
+        path: "/motion",
+        element: <Projects data={motion} blockData={motionBlock} />,
+      },
+      {
+        path: "/web",
+        element: <Projects data={web} blockData={webBlock} />,
       },
       {
         path: "/contact",

@@ -1,6 +1,7 @@
 $main-bg: rgb(252, 249, 240);
 
 $primary-btn: #d32827;
+$secondary-btn: #231f20;
 
 $text-dark: #231f20;
 $text-light: #fff;
@@ -16,7 +17,12 @@ $display-2: 5.5rem;
 $display-3: 4.5rem;
 $display-4: 3.5rem;
 
+//adjust these to change layout size
 $border-radius: 4px;
-$max-width: 980px;
+$max-width: 1080px;
 $gap: 16px;
-$item-width: calc($max-width / 3 - $gap);
+
+//math for layout variables
+$gap-total: calc($gap * 2);
+$gap-reducer: calc($max-width - $gap-total);
+$item-width: calc($gap-reducer / 3);
