@@ -31,6 +31,7 @@ body {
 
 main {
   width: 1080px;
+  max-height: 100vh;
 }
 
 .nav {
@@ -116,14 +117,18 @@ main {
   transition: 0.3s ease;
 }
 
-.projects-gallery {
-  display: flex;
-  width: 100%;
+.projects-gallery-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.projects-gallery .gallery-nav {
+.projects-gallery-container:hover .gallery-nav {
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+.projects-gallery-container .gallery-nav {
   display: flex;
   position: absolute;
   width: 1110px;
@@ -136,7 +141,10 @@ main {
   opacity: 0;
   transition: opacity 0.2s ease;
 }
-.projects-gallery .gallery-nav .gallery-nav-btn {
+.projects-gallery-container .gallery-nav.show-active {
+  display: none;
+}
+.projects-gallery-container .gallery-nav .gallery-nav-btn {
   color: #fff;
   background-color: #231f20;
   border: none;
@@ -150,13 +158,22 @@ main {
   font-size: 1.25rem;
   text-align: center;
 }
-.projects-gallery .gallery-nav .gallery-nav-active {
+.projects-gallery-container .gallery-nav .gallery-nav-active {
   background-color: #d32827;
 }
-.projects-gallery .gallery-nav .gallery-nav-active:hover {
+.projects-gallery-container .gallery-nav .gallery-nav-active:hover {
   opacity: 1;
 }
-.projects-gallery .gallery-container {
+.projects-gallery-container .projects-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.projects-gallery-container .projects-gallery .gallery-container {
   position: relative;
   display: grid;
   gap: 16px;
@@ -165,27 +182,23 @@ main {
   overflow-x: hidden;
   scroll-snap-type: x mandatory;
 }
-.projects-gallery .gallery-container .gallery-item {
+.projects-gallery-container .projects-gallery .gallery-container .gallery-item {
   width: 349.3333333333px;
   aspect-ratio: 1/1;
   overflow: hidden;
   scroll-snap-align: start;
 }
-.projects-gallery .gallery-container .gallery-item img {
+.projects-gallery-container .projects-gallery .gallery-container .gallery-item img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   transition: transform 0.2s ease;
 }
-.projects-gallery .gallery-container .gallery-item:hover img {
+.projects-gallery-container .projects-gallery .gallery-container .gallery-item:hover img {
   transform: scale(1.1);
   transition: transform 8s ease-out;
   transition-delay: 0.5s;
-}
-.projects-gallery:hover .gallery-nav {
-  opacity: 1;
-  transition: opacity 0.6s ease;
 }
 
 .show-card-container {
@@ -197,28 +210,47 @@ main {
   left: 0;
   position: absolute;
   z-index: 2;
-  transform: scaleY(0);
-  transform-origin: bottom;
+  transform: translateY(100%);
   transition: 0.2s ease-in-out;
 }
 .show-card-container.active {
   transform: scaleY(1);
   transition: 0.75s ease-in-out;
+  transform: translateY(0%);
 }
-.show-card-container.active .show-card {
-  opacity: 1;
-  transition: 0.75s ease-in-out;
-  transition-delay: 0.3s;
+.show-card-container .show-card-close {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  aspect-ratio: 1/1;
+  width: 2rem;
+  top: 1.25rem;
+  right: 0;
+  background-color: #231f20;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.show-card-container .show-card-close:hover {
+  background-color: #d32827;
+  transition: 0.3s ease;
 }
 .show-card-container .show-card {
   width: 100%;
   height: 100%;
-  opacity: 0;
   transition: 0.75s ease-in-out;
 }
 .show-card-container .show-card .show-card-top {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border-bottom: solid 2px #231f20;
+  border-top: solid 2px #231f20;
+  padding: 1rem 0;
 }
 .show-card-container .show-card .show-card-top .show-card-image-container {
   width: 100%;

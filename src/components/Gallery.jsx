@@ -3,9 +3,13 @@ import ShowCard from "./ShowCard";
 
 function Gallery({ data }) {
   const [selectedData, setSelectedData] = useState(null);
-  const [loaded, setLoaded] = useState(false);
+  const [loadingImagesCount, setLoadingImagesCount] = useState(data.length);
   const handleImageLoad = () => {
-    setLoaded(true);
+    setLoadingImagesCount((prevCount) => prevCount - 1);
+  };
+
+  const handleImageError = () => {
+    setLoadingImagesCount((prevCount) => prevCount - 1);
   };
 
   const horzGalleryRef = useRef(null);
@@ -35,8 +39,8 @@ function Gallery({ data }) {
   };
 
   return (
-    <div className="projects-gallery">
-      <div className="gallery-nav">
+    <div className="projects-gallery-container">
+      <div className={`gallery-nav ${selectedData ? "show-active" : ""}`}>
         <button
           className={`gallery-nav-btn ${
             leftBtnActive ? "gallery-nav-active" : ""
@@ -54,30 +58,45 @@ function Gallery({ data }) {
           {">"}
         </button>
       </div>
-      <div
-        className={`gallery-container ${loaded ? "loaded" : ""}`}
-        ref={horzGalleryRef}
-      >
-        {data.map((data) => (
+      {loadingImagesCount > 0 && <div className="loader">Loading...</div>}
+      <div className="projects-gallery">
+        <div
+          className={`gallery-container ${
+            loadingImagesCount === 0 ? "loaded" : ""
+          }`}
+          ref={horzGalleryRef}
+        >
+          {data.map((data) => (
+            <div
+              key={data.id}
+              style={{
+                gridArea: `${data.row} / ${data.column}`,
+              }}
+              className="gallery-item"
+              onClick={() => handleItemClick(data)}
+            >
+              <img
+                onLoad={handleImageLoad}
+                onError={handleImageError}
+                src={data.image}
+              />
+            </div>
+          ))}
+        </div>
+        <div className={`show-card-container ${selectedData ? "active" : ""}`}>
           <div
-            key={data.id}
-            style={{
-              gridArea: `${data.row} / ${data.column}`,
-            }}
-            className="gallery-item"
-            onClick={() => handleItemClick(data)}
+            className="show-card-close"
+            onClick={() => setSelectedData(null)}
           >
-            <img onLoad={handleImageLoad} src={data.image} />
+            X
           </div>
-        ))}
-      </div>
-      <div className={`show-card-container ${selectedData ? "active" : ""}`}>
-        {selectedData && (
-          <ShowCard
-            cardData={selectedData}
-            handleCardClose={() => setSelectedData(null)}
-          />
-        )}
+          {selectedData && (
+            <ShowCard
+              cardData={selectedData}
+              handleCardClose={() => setSelectedData(null)}
+            />
+          )}
+        </div>
       </div>
     </div>
   );

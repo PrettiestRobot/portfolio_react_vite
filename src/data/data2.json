@@ -1,25 +1,28 @@
 {
   "galleryData": [
     {
-      "commercialBlock": {
-        "title": "Commercial Work",
-        "description": "A scrapbook of projects I've worked on over the years. A lot of my work has been white label with a very strict \"if you leave the office with our files we WILL find you\" policy, so please excuse me if \"the process\" isn't as well documented as I'd like. Not to toot my own horn, but until 2020, work was pretty steady, and the idea that I would need to keep my work for a portfolio was a very naive non-consideration. Hindsight! Am I right?"
+      "blockData": {
+        "commercialBlock": {
+          "title": "Commercial Work",
+          "description": "A scrapbook of projects I've worked on over the years. A lot of my work has been white label with a very strict \"if you leave the office with our files we WILL find you\" policy, so please excuse me if \"the process\" isn't as well documented as I'd like. Not to toot my own horn, but until 2020, work was pretty steady, and the idea that I would need to keep my work for a portfolio was a very naive non-consideration. Hindsight! Am I right?"
+        },
+        "personalBlock": {
+          "title": "Personal Work",
+          "description": "Odds and ends I've put together in my spare time. An eclectic body of work that highlights my cursed habit of never settling on one style. I'm the guy who looks at something and thinks: \"How did they do that? Let's find out!\" Some might say I'm a jack of all trade and a master of none. I say I'm a jack of all trades who gets the job done."
+        },
+        "motionBlock": {
+          "title": "Motion Work",
+          "description": "More of a passionate past time than a profession for me. Motion Graphics is something I've been slowly growing into over the years. I've always been fascinated by the ability of motion to elevate even the most mundane illustrations into something really wild. Show someone a picture of a poptart? Cute. Make that poptart dance? Go viral!"
+        },
+        "webBlock": {
+          "title": "Web Work",
+          "description": "This is the newest member of the family, but don't be fooled by the new baby smell. Software is my passion. The marriage of flat graphics, audio and video. It's where I really get to push the \"jack of all trades\" thing to the limit and it's the thing I'm most excited about showing off in the future. (my wife says it sounds like chat gpt wrote this. I say chat gpt writes like me and that its own problem)"
+        }
       },
-      "personalBlock": {
-        "title": "Personal Work",
-        "description": "Odds and ends I've put together in my spare time. An ecclectic body of work that highlights my cursed habit of never settling on one style. I'm the guy who looks at something and thinks: \"How did they do that? Let's find out!\" Some might say i'm a jack of all trde and a master of none. I say i'm a jack of all trades who gets the job done."
-      },
-      "motionBlock": {
-        "title": "Motion Work",
-        "description": "More of a passionate past time than a proffesion for me. Motion Graphics is something I've been slowly growing into over the years. I've always been fascinated by the ability of motion to elevate even the most mundane illustrations into something really wild. Show someone a pictue of a poptart? Cute. Make that poptart dance? Go viral!"
-      },
-      "webBlock": {
-        "title": "Web Work",
-        "description": "This is the newest member of the family, but don't be fooled by the new baby smell. Software is my passion. The marriage of flat graphics, audio and video. It's where I really get to push the \"jack of all trades\" thing to the limit and it's the thing i'm most ecited about showing off in the future. (my wife says it sounds like chat gpt wrote this. I say chat gpt writes like me and that its own problem)"
-      },
-      "commercial": [
+      "projectData": [
         {
           "id": "c-1",
+          "cat": "commercial",
           "name": "Talking Across The Political Divide",
           "description": "This was a small 1 shot event poster for a local seminar with the goal of helping people learn to see past each others political differences and learn to come together as a community.",
           "technology": "Illustrator",
@@ -34,6 +37,7 @@
         },
         {
           "id": "c-2",
+          "cat": "commercial",
           "name": "Print Works Collateral",
           "description": "",
           "technology": "Illustrator, InDesign, Photoshop",
@@ -48,6 +52,7 @@
         },
         {
           "id": "c-3",
+          "cat": "commercial",
           "name": "Walton Buttons and Magnets",
           "description": "",
           "technology": "Illustrato",
@@ -62,6 +67,7 @@
         },
         {
           "id": "c-4",
+          "cat": "commercial",
           "name": "Camp Discovery Lodge Interior Layouts",
           "description": "",
           "technology": "Illustrator",
@@ -76,6 +82,7 @@
         },
         {
           "id": "c-5",
+          "cat": "commercial",
           "name": "Clackamas County Police Bike Stripes",
           "description": "",
           "technology": "Illustrator",
@@ -90,6 +97,7 @@
         },
         {
           "id": "c-6",
+          "cat": "commercial",
           "name": "Curious Comedy Event Poster",
           "description": "",
           "technology": "Photoshop",
@@ -103,99 +111,14 @@
           ]
         },
         {
-          "id": "c-7",
-          "name": "Kelly Quinn Pumpkin Brew",
-          "description": "",
-          "technology": "Photoshop, Illustrator",
-          "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FKelly-Quinn.jpg?alt=media&token=432584e4-93f5-49c5-8ca3-13b39e05b072",
-          "row": 1,
-          "column": 4,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "c-8",
-          "name": "Scary Stories Book Cover & Bookmark",
-          "description": "",
-          "technology": "Photoshop, InDesign",
-          "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FScary-Cover.jpg?alt=media&token=df033a1c-e96d-41f6-9a44-bdadbdf5a24c",
-          "row": 1,
-          "column": 5,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "c-9",
-          "name": "City Of Seattle T-Shirt",
-          "description": "",
-          "technology": "Illustrator",
-          "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FDraplin%20Mockup.png?alt=media&token=46310317-b6eb-4976-8574-e6bd3a39ff28",
-          "row": 1,
-          "column": 6,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "c-10",
-          "name": "Kupo Net T-Shirt Designs",
-          "description": "When a friend needs a hand who am I to turn them away. My friends at Kupo Net needed shirts for their online gaming guild to wear to a fan festival and I was happy to lend my services. This project was a lot of fun and was my first time doing typography with Japanese characters. The best part was that I was able to re-use the artwork later to make them some really cool vinyl decals!",
-          "technology": "Illustrator",
-          "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FKupo-Mockup.png?alt=media&token=d3ec288b-4bd1-46b4-8c4c-9f3e39c89522",
-          "row": 2,
-          "column": 4,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "c-11",
-          "name": "Maxline Box Truck Layout",
-          "description": "",
-          "technology": "Illustrator",
-          "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FMaxline.jpg?alt=media&token=21f29637-4dd3-4aec-8964-be257650f3ee",
-          "row": 2,
-          "column": 5,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "c-12",
-          "name": "Bumble Ad Van Layout",
-          "description": "",
-          "technology": "Photoshop, Illustrator",
-          "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FBumble_Side2.png?alt=media&token=e147fa34-e376-467c-b826-569966f51782",
-          "row": 2,
-          "column": 6,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        }
-      ],
-      "personal": [
-        {
           "id": "p-1",
+          "cat": "personal",
           "name": "We The Wild",
           "description": "",
           "technology": "Photoshop, Illustrator",
           "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FWeTheWild%202020.png?alt=media&token=8f7058b9-0d43-49f3-855e-5e041fdfd99d",
           "row": 1,
-          "column": 1,
+          "column": 4,
           "title": [
             "Helping {",
             { "type": "highlight", "content": "FRIEND" },
@@ -204,12 +127,13 @@
         },
         {
           "id": "p-2",
+          "cat": "personal",
           "name": "In The Future There Will Be Love",
           "description": "",
           "technology": "Photoshop, Illustrator",
           "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Frobots_love%202020.png?alt=media&token=016b957d-59eb-4e8f-899f-1dc2c0ca62c0",
           "row": 1,
-          "column": 2,
+          "column": 5,
           "title": [
             "Helping {",
             { "type": "highlight", "content": "FRIEND" },
@@ -218,12 +142,13 @@
         },
         {
           "id": "p-3",
+          "cat": "personal",
           "name": "Samurai-?",
           "description": "",
           "technology": "Photoshop, Illustrator",
           "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FSamurai%25202020_edited.jpg?alt=media&token=30ddde8b-bfeb-4161-ba6f-555cf6189470",
           "row": 1,
-          "column": 3,
+          "column": 6,
           "title": [
             "Helping {",
             { "type": "highlight", "content": "FRIEND" },
@@ -232,12 +157,13 @@
         },
         {
           "id": "p-4",
+          "cat": "personal",
           "name": "Ker-Plunke-rt",
           "description": "",
           "technology": "Photoshop",
           "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FProgress.jpg?alt=media&token=325fbab9-97e0-4d34-8819-bed5e31a99f8",
           "row": 2,
-          "column": 1,
+          "column": 4,
           "title": [
             "Helping {",
             { "type": "highlight", "content": "FRIEND" },
@@ -246,12 +172,13 @@
         },
         {
           "id": "p-5",
+          "cat": "personal",
           "name": "I Can Type When I Want To",
           "description": "",
           "technology": "Illustrator",
           "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FFlorida.png?alt=media&token=54ac004f-bc22-4c1d-9c40-8189468750ab",
           "row": 2,
-          "column": 2,
+          "column": 5,
           "title": [
             "Helping {",
             { "type": "highlight", "content": "FRIEND" },
@@ -260,434 +187,11 @@
         },
         {
           "id": "p-6",
+          "cat": "personal",
           "name": "Die",
           "description": "",
           "technology": "Illustrator",
           "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fdragons.jpg?alt=media&token=f9f91e6f-12f4-470a-9421-5659b33da186",
-          "row": 2,
-          "column": 3,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "p-7",
-          "name": "The One Time I Won An Award",
-          "description": "",
-          "technology": "Photoshop",
-          "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fpigs.jpg?alt=media&token=d09d631f-dc74-4178-a7b8-2355e42c5e57",
-          "row": 1,
-          "column": 4,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "p-8",
-          "name": "Retro Hardware",
-          "description": "",
-          "technology": "Illustrator",
-          "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FGameboy.png?alt=media&token=2b1a5db7-a4ca-4af4-b69b-79d25db41abc",
-          "row": 1,
-          "column": 5,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "p-9",
-          "name": "Legally Distinct Characters",
-          "description": "",
-          "technology": "Illustrator",
-          "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fkirby_edited.jpg?alt=media&token=05cb71fc-5cd7-467c-a36d-1ba1a1a0269d",
-          "row": 1,
-          "column": 6,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "p-10",
-          "name": "Terrerium",
-          "description": "",
-          "technology": "Illustrator",
-          "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fastro.png?alt=media&token=9e317192-a724-4d04-9c54-c6656a3248ec",
-          "row": 2,
-          "column": 4,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "p-11",
-          "name": "Padding",
-          "description": "",
-          "technology": "",
-          "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fhamster.png?alt=media&token=a9287932-a175-400c-8cf9-c59500867dea",
-          "row": 2,
-          "column": 5,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "p-12",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 2,
-          "column": 6,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        }
-      ],
-      "motion": [
-        {
-          "id": "m-1",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 1,
-          "column": 1,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "m-2",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 1,
-          "column": 2,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "m-3",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 1,
-          "column": 3,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "m-4",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 2,
-          "column": 1,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "m-5",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 2,
-          "column": 2,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "m-6",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 2,
-          "column": 3,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "m-7",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 1,
-          "column": 4,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "m-8",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 1,
-          "column": 5,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "m-9",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 1,
-          "column": 6,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "m-10",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 2,
-          "column": 4,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "m-11",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 2,
-          "column": 5,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "m-12",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 2,
-          "column": 6,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        }
-      ],
-      "web": [
-        {
-          "id": "w-1",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 1,
-          "column": 1,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "w-2",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 1,
-          "column": 2,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "w-3",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 1,
-          "column": 3,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "w-4",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 2,
-          "column": 1,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "w-5",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 2,
-          "column": 2,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "w-6",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 2,
-          "column": 3,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "w-7",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 1,
-          "column": 4,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "w-8",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 1,
-          "column": 5,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "w-9",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 1,
-          "column": 6,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "w-10",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 2,
-          "column": 4,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "w-11",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
-          "row": 2,
-          "column": 5,
-          "title": [
-            "Helping {",
-            { "type": "highlight", "content": "FRIEND" },
-            " -s}"
-          ]
-        },
-        {
-          "id": "w-12",
-          "name": "",
-          "description": "",
-          "technology": "",
-          "image": "./images/under-construction.png",
           "row": 2,
           "column": 6,
           "title": [

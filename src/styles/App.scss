@@ -44,6 +44,7 @@ body {
 
 main {
   width: $max-width;
+  max-height: 100vh;
 }
 
 .nav {
@@ -134,13 +135,13 @@ main {
 }
 
 // Gallery
-.projects-gallery {
-  display: flex;
-  width: 100%;
+.projects-gallery-container {
   position: relative;
-  justify-content: center;
-  align-items: center;
-
+  @include center-flexbox(column);
+  &:hover .gallery-nav {
+    opacity: 1;
+    transition: opacity 0.6s ease;
+  }
   .gallery-nav {
     display: flex;
     position: absolute;
@@ -153,7 +154,9 @@ main {
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.2s ease;
-
+    &.show-active {
+      display: none;
+    }
     .gallery-nav-btn {
       color: $text-light;
       background-color: $text-dark;
@@ -175,35 +178,39 @@ main {
       }
     }
   }
-  .gallery-container {
+  .projects-gallery {
+    @include center-flexbox();
+    width: 100%;
     position: relative;
-    display: grid;
-    gap: 16px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: repeat(6, 1fr);
-    overflow-x: hidden;
-    scroll-snap-type: x mandatory;
-    .gallery-item {
-      width: $item-width;
-      aspect-ratio: 1/1;
-      overflow: hidden;
-      scroll-snap-align: start;
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.2s ease;
-      }
-      &:hover img {
-        transform: scale(1.1);
-        transition: transform 8s ease-out;
-        transition-delay: 0.5s;
+
+    overflow: hidden;
+
+    .gallery-container {
+      position: relative;
+      display: grid;
+      gap: 16px;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: repeat(6, 1fr);
+      overflow-x: hidden;
+      scroll-snap-type: x mandatory;
+      .gallery-item {
+        width: $item-width;
+        aspect-ratio: 1/1;
+        overflow: hidden;
+        scroll-snap-align: start;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.2s ease;
+        }
+        &:hover img {
+          transform: scale(1.1);
+          transition: transform 8s ease-out;
+          transition-delay: 0.5s;
+        }
       }
     }
-  }
-  &:hover .gallery-nav {
-    opacity: 1;
-    transition: opacity 0.6s ease;
   }
 }
 
@@ -216,26 +223,43 @@ main {
   left: 0;
   position: absolute;
   z-index: 2;
-  transform: scaleY(0);
-  transform-origin: bottom;
+  transform: translateY(100%);
   transition: 0.2s ease-in-out;
+
   &.active {
     transform: scaleY(1);
     transition: 0.75s ease-in-out;
-    .show-card {
-      opacity: 1;
-      transition: 0.75s ease-in-out;
-      transition-delay: 0.3s;
+    transform: translateY(0%);
+  }
+  .show-card-close {
+    @include center-flexbox();
+    position: absolute;
+    aspect-ratio: 1/1;
+    width: 2rem;
+    top: 1.25rem;
+    right: 0;
+    background-color: $text-dark;
+    color: $text-light;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    &:hover {
+      background-color: $primary-btn;
+      transition: 0.3s ease;
     }
   }
   .show-card {
     width: 100%;
     height: 100%;
-    opacity: 0;
     transition: 0.75s ease-in-out;
     .show-card-top {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      border-bottom: solid 2px $text-dark;
+      border-top: solid 2px $text-dark;
+      padding: 1rem 0;
       .show-card-image-container {
         width: 100%;
         aspect-ratio: 16/9;
@@ -302,4 +326,7 @@ main {
       border: none;
     }
   }
+}
+
+@media screen and (max-width: 1952px) {
 }
