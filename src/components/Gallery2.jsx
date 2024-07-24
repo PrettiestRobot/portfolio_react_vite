@@ -1,80 +1,112 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import ShowCard from "./ShowCard";
+import ArrowUp from "/images/arrow_upward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg";
+import ArrowDown from "/images/arrow_downward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg";
 
 function Gallery({ data }) {
   const [selectedData, setSelectedData] = useState(null);
-  const [loaded, setLoaded] = useState(false);
+  const [loadingImagesCount, setLoadingImagesCount] = useState(data.length);
+
+  useEffect(() => {
+    setSelectedData(null);
+  }, [data]);
+
   const handleImageLoad = () => {
-    setLoaded(true);
+    setLoadingImagesCount((prevCount) => prevCount - 1);
   };
 
-  const horzGalleryRef = useRef(null);
-  const [leftBtnActive, setLeftBtnActive] = useState(false);
-  const [rightBtnActive, setRightBtnActive] = useState(true);
-
-  const scrollLeft = () => {
-    horzGalleryRef.current.scrollBy({
-      left: -horzGalleryRef.current.offsetWidth,
-      behavior: "smooth",
-    });
-    setRightBtnActive(true);
-    setLeftBtnActive(false);
+  const handleImageError = () => {
+    setLoadingImagesCount((prevCount) => prevCount - 1);
   };
 
-  const scrollRight = () => {
-    horzGalleryRef.current.scrollBy({
-      left: horzGalleryRef.current.offsetWidth,
-      behavior: "smooth",
-    });
-    setLeftBtnActive(true);
-    setRightBtnActive(false);
+  const GalleryRef = useRef(null);
+  const [upBtnActive, setUpBtnActive] = useState(false);
+  const [downBtnActive, setDownBtnActive] = useState(true);
+
+  const scrollUp = () => {
+    if (GalleryRef.current.scrollTop > 0) {
+      GalleryRef.current.scrollBy({
+        top: -GalleryRef.current.offsetHeight,
+        behavior: "smooth",
+      });
+      setDownBtnActive(true);
+    }
+    if (GalleryRef.current.scrollTop <= GalleryRef.current.offsetHeight) {
+      setUpBtnActive(false);
+    }
+  };
+
+  const scrollDown = () => {
+    if (
+      GalleryRef.current.scrollTop <
+      GalleryRef.current.scrollHeight - GalleryRef.current.offsetHeight
+    ) {
+      GalleryRef.current.scrollBy({
+        top: GalleryRef.current.offsetHeight,
+        behavior: "smooth",
+      });
+      setUpBtnActive(true);
+    }
+    if (
+      GalleryRef.current.scrollTop >=
+      GalleryRef.current.scrollHeight - GalleryRef.current.offsetHeight * 2
+    ) {
+      setDownBtnActive(false);
+    }
   };
 
   const handleItemClick = (itemData) => {
     setSelectedData(itemData);
   };
 
-  console.log(data);
-
   return (
-    <div className="projects-gallery">
-      <div className="gallery-nav">
+    <div className="projects-gallery-container">
+      <div className={`gallery-nav ${selectedData ? "show-active" : ""}`}>
         <button
           className={`gallery-nav-btn ${
-            leftBtnActive ? "gallery-nav-active" : ""
+            upBtnActive ? "gallery-nav-active" : ""
           }`}
-          onClick={scrollLeft}
+          onClick={scrollUp}
         >
-          {"<"}
+          <img src={ArrowUp} />
         </button>
         <button
           className={`gallery-nav-btn ${
-            rightBtnActive ? "gallery-nav-active" : ""
+            downBtnActive ? "gallery-nav-active" : ""
           }`}
-          onClick={scrollRight}
+          onClick={scrollDown}
         >
-          {">"}
+          <img src={ArrowDown} />
         </button>
       </div>
-      <div
-        className={`gallery-container ${loaded ? "loaded" : ""}`}
-        ref={horzGalleryRef}
-      >
-        {data.map((data) => (
-          <div
-            key={data.id}
-            data-cat={data.cat}
-            style={{
-              gridArea: `${data.row} / ${data.column}`,
-            }}
-            className="gallery-item"
-            onClick={() => handleItemClick(data)}
-          >
-            <img onLoad={handleImageLoad} src={data.image} />
-          </div>
-        ))}
+      {loadingImagesCount > 0 && <div className="loader">Loading...</div>}
+      <div className="projects-gallery">
+        <div
+          className={`web-gallery-container ${
+            loadingImagesCount === 0 ? "loaded" : ""
+          }`}
+          ref={GalleryRef}
+        >
+          {data.map((data) => (
+            <div
+              key={data.id}
+              className="gallery-item web-gallery-item"
+              onClick={() => handleItemClick(data)}
+            >
+              <img
+                className="web-img"
+                onLoad={handleImageLoad}
+                onError={handleImageError}
+                src={data.image}
+              />
+            </div>
+          ))}
+        </div>
       </div>
       <div className={`show-card-container ${selectedData ? "active" : ""}`}>
+        <div className="show-card-close" onClick={() => setSelectedData(null)}>
+          X
+        </div>
         {selectedData && (
           <ShowCard
             cardData={selectedData}

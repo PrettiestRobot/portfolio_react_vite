@@ -1,4 +1,4 @@
-$main-bg: rgb(252, 249, 240);
+$main-bg: #fcf9f0;
 
 $primary-btn: #d32827;
 $secondary-btn: #231f20;
@@ -26,7 +26,5 @@ $gap: 16px;
 $gap-total: calc($gap * 2);
 $gap-reducer: calc($max-width - $gap-total);
 $item-width: calc($gap-reducer / 3);
-
-@media screen and (max-width: 1952px) {
-  $max-width: calc(100% + 32px);
-}
+$item-double: calc($item-width * 2);
+$gallery-height: calc($item-double + $gap);

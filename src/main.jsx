@@ -4,10 +4,8 @@ import App from "./App.jsx";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Projects2 from "./pages/Projects2";
 import Resume from "./pages/Resume";
 import data from "./data/data.json";
-import data2 from "./data/data2.json";
 const {
   commercial,
   personal,
@@ -19,18 +17,12 @@ const {
   webBlock,
 } = data;
 
-const { galleryData } = data2;
-
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
       { index: true, element: <About /> },
-      {
-        path: "/projects",
-        element: <Projects2 data={galleryData} />,
-      },
       {
         path: "/commercial",
         element: <Projects data={commercial} blockData={commercialBlock} />,
