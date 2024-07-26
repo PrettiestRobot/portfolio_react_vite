@@ -80,12 +80,11 @@ function Gallery({ data }) {
         </button>
       </div>
       {loadingImagesCount > 0 && <div className="loader">Loading...</div>}
-      <div className="projects-gallery">
+      <div className="projects-gallery" ref={GalleryRef}>
         <div
           className={`gallery-container ${
             loadingImagesCount === 0 ? "loaded" : ""
           }`}
-          ref={GalleryRef}
         >
           {data.map((data) => (
             <div
