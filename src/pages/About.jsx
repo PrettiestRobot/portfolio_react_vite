@@ -19,9 +19,9 @@ export default function About() {
             <div className="about-block-text">
               <h2>About Me:</h2>
               <p>
-                Hi. I'm Thomas Rose-Meyer. With over 10 years of experience in
-                print graphics and learning recources being more accessible than
-                ever , now seemed like a perfect time to transition to a career
+                Hi, I'm Thomas Rose-Meyer. With over 10 years of experience in
+                print graphics and learning resources being more accessible than
+                ever, now seemed like the perfect time to transition to a career
                 in web development. As a detail-oriented and design-savvy
                 individual, I am confident in my ability to create visually
                 appealing and user-friendly websites. I am a lifelong learner

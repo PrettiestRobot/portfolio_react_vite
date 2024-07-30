@@ -355,7 +355,7 @@ main {
 }
 
 .show-card-container {
-  display: none;
+  display: flex;
   background-color: #fcf9f0;
   width: 100%;
   height: 100%;
