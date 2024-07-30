@@ -102,7 +102,10 @@ function Navbar() {
           <div className="nav-link-text">Web</div>
         </Link>
       </div>
-      <div className="mobile-nav-container">
+      <div
+        className={`mobile-nav-container ${navOpen ? "nav-open" : ""}`}
+        onClick={toggleBurger}
+      >
         <div className={`mobile-nav ${navOpen ? "nav-open" : ""}`}>
           <Link
             to="/"
