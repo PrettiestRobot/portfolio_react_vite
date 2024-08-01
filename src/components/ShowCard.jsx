@@ -1,4 +1,4 @@
-function ShowCard({ cardData, handleCardClose }) {
+function ShowCard({ cardData }) {
   const renderSpans = (textArray) => {
     return textArray.map((item, index) => {
       if (typeof item === "string") {
@@ -13,7 +13,7 @@ function ShowCard({ cardData, handleCardClose }) {
     });
   };
   return (
-    <div className="show-card" onClick={handleCardClose}>
+    <div className="show-card">
       <div className="show-card-top">
         <div className="show-card-image-container">
           <img src={cardData.image} />

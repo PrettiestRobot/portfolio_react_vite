@@ -10,33 +10,41 @@ function Block({ blockData }) {
   };
 
   return (
-    <div className="gallery-block">
-      <div className="block-resume">
-        <a
-          href="/Thomas_Meyer_Resume_2024.pdf"
-          rel="noopener noreferrer"
-          target="_blank"
-          className="resume-button"
-        >
-          Resume
-        </a>
-      </div>
-      <div className="block-info-container">
-        <div
-          className={`block-text-container ${infoActive ? "info-active" : ""}`}
-        >
-          <div className="block-text" onClick={toggleInfo}>
-            <h2>{blockData.title}</h2>
-            <p>{blockData.description} </p>
-          </div>
-          <div className="info-button-container">
-            <button className="info-button" onClick={toggleInfo}>
-              <img src={infoActive ? Close : Info} alt="Toggle Info" />
-            </button>
+    <>
+      <div
+        className={`mobile-block-bg ${infoActive ? "info-active" : ""}`}
+        onClick={toggleInfo}
+      ></div>
+      <div className="gallery-block">
+        <div className="block-resume">
+          <a
+            href="/Thomas_Meyer_Resume_2024.pdf"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="resume-button"
+          >
+            Resume
+          </a>
+        </div>
+        <div className="block-info-container">
+          <div
+            className={`block-text-container ${
+              infoActive ? "info-active" : ""
+            }`}
+          >
+            <div className="block-text" onClick={toggleInfo}>
+              <h2>{blockData.title}</h2>
+              <p>{blockData.description} </p>
+            </div>
+            <div className="info-button-container">
+              <button className="info-button" onClick={toggleInfo}>
+                <img src={infoActive ? Close : Info} alt="Toggle Info" />
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

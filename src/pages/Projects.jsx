@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom";
 import Block from "../components/Block";
 import Gallery from "../components/Gallery";
 import Gallery2 from "../components/Gallery2";
+import Media from "../components/Media";
 
 function Projects({ data, blockData }) {
   const location = useLocation();
@@ -9,7 +10,7 @@ function Projects({ data, blockData }) {
 
   const galleryComponents = {
     "/web": <Gallery2 data={data} />,
-    "/motion": <Gallery2 data={data} />,
+    "/motion": <Media data={data} />,
     "/personal": <Gallery data={data} />,
     "/commercial": <Gallery data={data} />,
   };

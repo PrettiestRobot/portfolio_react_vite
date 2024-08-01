@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import ShowCard from "./ShowCard";
 import ArrowUp from "/images/arrow_upward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg";
 import ArrowDown from "/images/arrow_downward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg";
+import Close from "/images/cancel_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg";
 
 function Gallery({ data }) {
   const [selectedData, setSelectedData] = useState(null);
@@ -103,9 +104,11 @@ function Gallery({ data }) {
         </div>
       </div>
       <div className={`show-card-container ${selectedData ? "active" : ""}`}>
-        <div className="show-card-close" onClick={() => setSelectedData(null)}>
-          X
-        </div>
+        <img
+          src={Close}
+          className="show-card-close"
+          onClick={() => setSelectedData(null)}
+        />
         {selectedData && (
           <ShowCard
             cardData={selectedData}
