@@ -467,6 +467,7 @@ main {
         color: $text-light;
         background-color: $text-dark;
         padding: 1rem 1.25rem;
+        pointer-events: none;
         p {
           line-height: 1.45rem;
         }
@@ -662,6 +663,9 @@ footer {
         &.info-active {
           transform: translateY(0);
           transition: 0.3s ease;
+        }
+        .block-text {
+          pointer-events: all;
         }
         .info-button-container {
           display: flex;

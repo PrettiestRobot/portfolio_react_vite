@@ -22,5 +22,4 @@ function Projects({ data, blockData }) {
     </div>
   );
 }
-
 export default Projects;

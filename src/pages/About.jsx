@@ -12,7 +12,14 @@ export default function About() {
 
       <div className="gallery-block">
         <div className="block-resume">
-          <button className="resume-button">Resume</button>
+          <a
+            href="/Thomas_Meyer_Resume_2024.pdf"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="resume-button"
+          >
+            Resume
+          </a>
         </div>
         <div className="about-block-info-container">
           <div className="about-block-text-container">
