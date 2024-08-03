@@ -3,13 +3,14 @@ import Block from "../components/Block";
 import Gallery from "../components/Gallery";
 import Gallery2 from "../components/Gallery2";
 import Media from "../components/Media";
+import WebGallery from "../components/WebGallery";
 
 function Projects({ data, blockData }) {
   const location = useLocation();
   const path = location.pathname;
 
   const galleryComponents = {
-    "/web": <Gallery2 data={data} />,
+    "/web": <WebGallery data={data} />,
     "/motion": <Media data={data} />,
     "/personal": <Gallery data={data} />,
     "/commercial": <Gallery data={data} />,

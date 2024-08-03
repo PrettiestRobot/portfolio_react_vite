@@ -324,18 +324,44 @@ main {
       }
     }
 
+    // .web-gallery-container {
+    //   grid-template-columns: 1fr;
+    //   width: 100%;
+    //   .web-gallery-item {
+    //     max-height: calc($item-width - 75px);
+    //     max-width: $max-width;
+    //     width: 100%;
+    //     height: 100%;
+    //     .web-img {
+    //       object-fit: cover;
+    //       width: 100%;
+    //       height: 100%;
+    //     }
+    //   }
+    // }
+
     .web-gallery-container {
-      grid-template-columns: 1fr;
-      width: 100%;
+      grid-template-columns: 1fr 1fr;
       .web-gallery-item {
-        max-height: calc($item-width - 75px);
-        max-width: $max-width;
-        width: 100%;
-        height: 100%;
-        .web-img {
-          object-fit: cover;
+        aspect-ratio: 16/9;
+        max-width: calc($max-width / 2);
+        position: relative;
+        .web-git-link {
+          position: absolute;
+          width: 2rem;
+          height: 2rem;
+          top: 0.25rem;
+          right: 0.25rem;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .web-gallery-img {
           width: 100%;
           height: 100%;
+          object-fit: cover;
         }
       }
     }
@@ -573,11 +599,12 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  width: 100%;
 }
 
 video,
 iframe {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   aspect-ratio: 16/9;
   border-radius: 8px; /* Optional: Adds rounded corners */
@@ -599,6 +626,14 @@ iframe {
         border-top: none;
         gap: 1rem;
         padding-top: 0;
+      }
+    }
+  }
+
+  .projects-gallery-container {
+    .projects-gallery {
+      .web-gallery-container {
+        gap: 8px;
       }
     }
   }
@@ -659,6 +694,23 @@ iframe {
       }
     }
   }
+  .projects-gallery-container {
+    .projects-gallery {
+      .web-gallery-container {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        .web-gallery-item {
+          aspect-ratio: 16/9;
+          max-width: $max-width;
+          .gallery-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 635px) {
@@ -669,6 +721,9 @@ iframe {
     width: calc(100vw - 24px);
   }
   .projects-gallery-container {
+    .gallery-nav {
+      display: none;
+    }
     .projects-gallery {
       .gallery-container {
         gap: 8px;

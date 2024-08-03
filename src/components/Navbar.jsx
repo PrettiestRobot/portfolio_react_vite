@@ -1,12 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import githubLogo from "../assets/github-mark.svg";
-import linkedinLogo from "../assets/linkedin.svg";
-import facebookLogo from "../assets/facebook.svg";
+import GitHubLogo from "../assets/github-mark.svg";
+import LinkedinLogo from "../assets/linkedin.svg";
+import FacebookLogo from "../assets/facebook.svg";
 import LogoType from "../assets/Brand_Logotype.svg";
-import githubLogoM from "../assets/github-mark_light.svg";
-import linkedinLogoM from "../assets/linkedin_light.svg";
-import facebookLogoM from "../assets/facebook_light.svg";
+import GitHubLogoM from "../assets/github-mark_light.svg";
+import LinkedinLogoM from "../assets/linkedin_light.svg";
+import FacebookLogoM from "../assets/facebook_light.svg";
 
 function Navbar() {
   const currentPage = useLocation().pathname;
@@ -45,21 +45,21 @@ function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={githubLogo}></img>
+              <img src={GitHubLogo}></img>
             </a>
             <a
               href="https://www.linkedin.com/in/thomas-rose-meyer-58b257104/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={linkedinLogo}></img>
+              <img src={LinkedinLogo}></img>
             </a>
             <a
               href="https://www.facebook.com/prettiestrobot/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={facebookLogo}></img>
+              <img src={FacebookLogo}></img>
             </a>
           </div>
         </div>
@@ -154,21 +154,21 @@ function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={githubLogoM}></img>
+              <img src={GitHubLogoM}></img>
             </a>
             <a
               href="https://www.linkedin.com/in/thomas-rose-meyer-58b257104/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={linkedinLogoM}></img>
+              <img src={LinkedinLogoM}></img>
             </a>
             <a
               href="https://www.facebook.com/prettiestrobot/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={facebookLogoM}></img>
+              <img src={FacebookLogoM}></img>
             </a>
           </div>
         </div>
