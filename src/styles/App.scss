@@ -344,20 +344,77 @@ main {
       grid-template-columns: 1fr 1fr;
       .web-gallery-item {
         aspect-ratio: 16/9;
-        max-width: calc($max-width / 2);
+        max-width: calc($max-width / 2 - 8px);
         position: relative;
-        .web-git-link {
+        overflow: hidden;
+        .web-item-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
           position: absolute;
-          width: 2rem;
-          height: 2rem;
-          top: 0.25rem;
-          right: 0.25rem;
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.75);
+          color: $text-light;
+          padding: 1rem;
+          gap: 1rem;
+          transform: translateY(100%);
+          transition: 0.2s ease-in-out;
+
+          &.web-info-active {
+            display: flex;
+            transform: translateY(0);
+            transition: 0.75s ease-in-out;
           }
         }
+        .web-item-bottom {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          padding: 4px 8px;
+          z-index: 3;
+          .web-info-icon {
+            width: 2rem;
+            height: 2rem;
+            .web-info-fill {
+              fill: $text-light;
+            }
+            &:hover {
+              .web-info-fill {
+                fill: $primary-btn;
+              }
+            }
+          }
+        }
+        .web-item-top {
+          @include spread-flexbox();
+          width: 100%;
+          background-color: rgba(255, 255, 255, 0.769);
+          padding: 4px 8px;
+          color: $text-dark;
+          z-index: 3;
+          .web-git-link {
+            width: 2rem;
+            height: 2rem;
+            top: 0.25rem;
+            right: 0.25rem;
+            .git-icon {
+              width: 100%;
+              height: 100%;
+              .git-icon-fill {
+                fill: $text-dark;
+              }
+              &:hover {
+                .git-icon-fill {
+                  fill: $primary-btn;
+                }
+              }
+            }
+          }
+        }
+
         .web-gallery-img {
           width: 100%;
           height: 100%;

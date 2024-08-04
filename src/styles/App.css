@@ -320,21 +320,74 @@ main {
 }
 .projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item {
   aspect-ratio: 16/9;
-  max-width: 540px;
+  max-width: 532px;
   position: relative;
+  overflow: hidden;
 }
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-git-link {
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 1rem;
+  gap: 1rem;
+  transform: translateY(100%);
+  transition: 0.2s ease-in-out;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-info.web-info-active {
+  display: flex;
+  transform: translateY(0);
+  transition: 0.75s ease-in-out;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 4px 8px;
+  z-index: 3;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-bottom .web-info-icon {
+  width: 2rem;
+  height: 2rem;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-bottom .web-info-icon .web-info-fill {
+  fill: #fff;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-bottom .web-info-icon:hover .web-info-fill {
+  fill: #d32827;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.769);
+  padding: 4px 8px;
+  color: #231f20;
+  z-index: 3;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top .web-git-link {
   width: 2rem;
   height: 2rem;
   top: 0.25rem;
   right: 0.25rem;
 }
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-git-link img {
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top .web-git-link .git-icon {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top .web-git-link .git-icon .git-icon-fill {
+  fill: #231f20;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top .web-git-link .git-icon:hover .git-icon-fill {
+  fill: #d32827;
 }
 .projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-gallery-img {
   width: 100%;
