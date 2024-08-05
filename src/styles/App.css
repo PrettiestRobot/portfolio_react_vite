@@ -319,12 +319,48 @@ main {
   grid-template-columns: 1fr 1fr;
 }
 .projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item {
-  aspect-ratio: 16/9;
   max-width: 532px;
-  position: relative;
   overflow: hidden;
 }
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-info {
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #231f20;
+  padding: 6px 8px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top .web-git-link {
+  width: 2rem;
+  height: 2rem;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top .web-git-link .git-icon {
+  width: 100%;
+  height: 100%;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top .web-git-link .git-icon .git-icon-fill {
+  fill: #fff;
+  transition: 0.3s ease;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top .web-git-link .git-icon:hover .git-icon-fill {
+  fill: #d32827;
+  transition: 0.3s ease;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-gallery-image-container {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16/9;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-gallery-image-container .web-gallery-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-gallery-image-container .web-item-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -335,65 +371,18 @@ main {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.75);
   color: #fff;
-  padding: 1rem;
+  padding: 1.5rem;
   gap: 1rem;
   transform: translateY(100%);
   transition: 0.2s ease-in-out;
+  line-height: 1.45rem;
 }
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-info.web-info-active {
-  display: flex;
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-gallery-image-container:hover .web-item-info {
   transform: translateY(0);
   transition: 0.75s ease-in-out;
 }
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-bottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 4px 8px;
-  z-index: 3;
-}
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-bottom .web-info-icon {
-  width: 2rem;
-  height: 2rem;
-}
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-bottom .web-info-icon .web-info-fill {
-  fill: #fff;
-}
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-bottom .web-info-icon:hover .web-info-fill {
-  fill: #d32827;
-}
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.769);
-  padding: 4px 8px;
-  color: #231f20;
-  z-index: 3;
-}
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top .web-git-link {
-  width: 2rem;
-  height: 2rem;
-  top: 0.25rem;
-  right: 0.25rem;
-}
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top .web-git-link .git-icon {
-  width: 100%;
-  height: 100%;
-}
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top .web-git-link .git-icon .git-icon-fill {
-  fill: #231f20;
-}
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-item-top .web-git-link .git-icon:hover .git-icon-fill {
-  fill: #d32827;
-}
-.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-gallery-img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .web-gallery-image-container .web-tech {
+  font-style: italic;
 }
 .projects-gallery-container .projects-gallery .gallery-container,
 .projects-gallery-container .projects-gallery .web-gallery-container {
@@ -424,7 +413,7 @@ main {
 
 .show-card-container {
   display: flex;
-  background-color: #fcf9f0;
+  background-color: #231f20;
   width: 100%;
   height: 100%;
   top: 0;
@@ -432,7 +421,7 @@ main {
   position: absolute;
   opacity: 1;
   z-index: 2;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: 0.2s ease-in-out;
 }
 .show-card-container.active {
@@ -471,13 +460,11 @@ main {
 .show-card-container .show-card .show-card-top {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-bottom: solid 2px #231f20;
-  border-top: solid 2px #231f20;
-  padding: 1rem 0;
+  padding: 1rem;
+  gap: 1rem;
 }
 .show-card-container .show-card .show-card-top .show-card-image-container {
   width: 100%;
-  aspect-ratio: 16/9;
 }
 .show-card-container .show-card .show-card-top .show-card-image-container img {
   width: 100%;
@@ -489,8 +476,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 0 1rem;
   width: 100%;
+  color: #fff;
 }
 .show-card-container .show-card .show-card-top .show-card-body .show-card-body-title {
   font-size: 2.5rem;
@@ -623,7 +610,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 0 40px;
   width: 100%;
 }
 
@@ -649,7 +636,6 @@ iframe {
     grid-template-columns: 1fr;
     border-top: none;
     gap: 1rem;
-    padding-top: 0;
   }
   .projects-gallery-container .projects-gallery .web-gallery-container {
     gap: 8px;
@@ -702,7 +688,6 @@ iframe {
     gap: 8px;
   }
   .projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item {
-    aspect-ratio: 16/9;
     max-width: 1080px;
   }
   .projects-gallery-container .projects-gallery .web-gallery-container .web-gallery-item .gallery-img {

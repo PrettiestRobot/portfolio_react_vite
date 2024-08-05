@@ -559,7 +559,7 @@
     {
       "id": "w-3",
       "name": "Marvel Longbox",
-      "description": "A serverless API that pulls data from the Marvel API and displays it in a searchable format. This project was a collaberation for a benchmark towards my web development certificate. Collaborators are listed in the readme.",
+      "description": "A serverless API that pulls data from the Marvel API and displays it in a searchable format. This project was my first benchmark towards my web development certificate. Collaborators are listed in the readme.",
       "technology": "Javascript, Jquery, HTML5, CSS, Marvel API, MediaWiki API, JsDelivr",
       "image": "./images/web/marvel_longbox_screenshot.jpg",
       "readme": "https://github.com/SparkkyJD/Marvel-comic-search/blob/main/README.md",

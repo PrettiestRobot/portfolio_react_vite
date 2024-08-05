@@ -62,7 +62,7 @@ function Gallery({ data }) {
 
   return (
     <div className="projects-gallery-container">
-      <div className={`gallery-nav ${selectedData ? "show-active" : ""}`}>
+      {/* <div className={`gallery-nav ${selectedData ? "show-active" : ""}`}>
         <button
           className={`gallery-nav-btn ${
             upBtnActive ? "gallery-nav-active" : ""
@@ -79,7 +79,7 @@ function Gallery({ data }) {
         >
           <img src={ArrowDown} />
         </button>
-      </div>
+      </div> */}
       {loadingImagesCount > 0 && <div className="loader">Loading...</div>}
       <div className="projects-gallery" ref={GalleryRef}>
         <div

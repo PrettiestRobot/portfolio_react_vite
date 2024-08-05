@@ -68,7 +68,7 @@ function WebGallery({ data }) {
 
   return (
     <div className="projects-gallery-container">
-      <div className={`gallery-nav ${selectedData ? "show-active" : ""}`}>
+      {/* <div className={`gallery-nav ${selectedData ? "show-active" : ""}`}>
         <button
           className={`gallery-nav-btn ${
             upBtnActive ? "gallery-nav-active" : ""
@@ -85,7 +85,7 @@ function WebGallery({ data }) {
         >
           <img src={ArrowDown} />
         </button>
-      </div>
+      </div> */}
       {loadingImagesCount > 0 && <div className="loader">Loading...</div>}
       <div className="projects-gallery" ref={GalleryRef}>
         <div
@@ -117,7 +117,7 @@ function WebGallery({ data }) {
                   </svg>
                 </a>
               </div>
-              <div className="web-item-bottom" onClick={toggleWebInfo}>
+              {/* <div className="web-item-bottom" onClick={toggleWebInfo}>
                 {!webInfoActive ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -143,21 +143,24 @@ function WebGallery({ data }) {
                     />
                   </svg>
                 )}
+              </div> */}
+
+              <div className="web-gallery-image-container">
+                <div
+                  className={`web-item-info ${
+                    webInfoActive ? "web-info-active" : ""
+                  }`}
+                >
+                  <p>{data.description}</p>
+                  <p className="web-tech">{data.technology}</p>
+                </div>
+                <img
+                  className="web-gallery-img"
+                  onLoad={handleImageLoad}
+                  onError={handleImageError}
+                  src={data.image}
+                />
               </div>
-              <div
-                className={`web-item-info ${
-                  webInfoActive ? "web-info-active" : ""
-                }`}
-              >
-                <p>{data.description}</p>
-                <p>{data.technology}</p>
-              </div>
-              <img
-                className="web-gallery-img"
-                onLoad={handleImageLoad}
-                onError={handleImageError}
-                src={data.image}
-              />
             </div>
           ))}
         </div>
