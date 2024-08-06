@@ -436,20 +436,19 @@ main {
   justify-content: center;
   align-items: center;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.25);
   aspect-ratio: 1/1;
   width: 2rem;
   top: 1.25rem;
-  right: 0.25rem;
-  color: #fff;
-  font-weight: 700;
-  border: none;
-  border-radius: 50px;
-  transition: 0.3s ease;
+  right: 1.25rem;
   cursor: pointer;
 }
-.show-card-container .show-card-close:hover {
-  background-color: #d32827;
+.show-card-container .show-card-close .close-path {
+  fill: #fff;
+  transition: 0.3s ease;
+  box-shadow: 9px 11px 5px -4px rgba(0, 0, 0, 0.64);
+}
+.show-card-container .show-card-close:hover .close-path {
+  fill: #d32827;
   transition: 0.3s ease;
 }
 .show-card-container .show-card {
@@ -626,7 +625,7 @@ iframe {
 @media (max-width: 1120px) {
   .show-card-container .show-card-close {
     top: 0.25rem;
-    right: 0.25rem;
+    left: 0.25rem;
   }
   .show-card-container .show-card {
     overflow-y: scroll;

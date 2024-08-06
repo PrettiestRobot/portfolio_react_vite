@@ -41,6 +41,7 @@ main {
   flex-direction: column;
   width: 100%;
   margin-bottom: 1rem;
+
   .nav-container {
     display: flex;
     justify-content: space-between;
@@ -316,6 +317,7 @@ main {
       .gallery-item {
         aspect-ratio: 1/1;
         max-width: $item-width;
+
         .gallery-img {
           width: 100%;
           height: 100%;
@@ -442,21 +444,24 @@ main {
   .show-card-close {
     @include center-flexbox();
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.25);
     aspect-ratio: 1/1;
     width: 2rem;
     top: 1.25rem;
-    right: 0.25rem;
+    right: 1.25rem;
 
-    color: $text-light;
-    font-weight: 700;
-    border: none;
-    border-radius: 50px;
-    transition: 0.3s ease;
     cursor: pointer;
-    &:hover {
-      background-color: $primary-btn;
+    .close-path {
+      fill: $text-light;
       transition: 0.3s ease;
+      -webkit-box-shadow: 9px 11px 5px -4px rgba(0, 0, 0, 0.64);
+      -moz-box-shadow: 9px 11px 5px -4px rgba(0, 0, 0, 0.64);
+      box-shadow: 9px 11px 5px -4px rgba(0, 0, 0, 0.64);
+    }
+    &:hover {
+      .close-path {
+        fill: $primary-btn;
+        transition: 0.3s ease;
+      }
     }
   }
   .show-card {
@@ -642,7 +647,7 @@ iframe {
   .show-card-container {
     .show-card-close {
       top: 0.25rem;
-      right: 0.25rem;
+      left: 0.25rem;
     }
     .show-card {
       overflow-y: scroll;

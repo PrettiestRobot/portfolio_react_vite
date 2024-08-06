@@ -15,9 +15,13 @@ function ShowCard({ cardData }) {
   return (
     <div className="show-card">
       <div className="show-card-top">
-        <div className="show-card-image-container">
+        <a
+          className="show-card-image-container"
+          href={cardData.image}
+          target="blank"
+        >
           <img src={cardData.image} />
-        </div>
+        </a>
         <div className="show-card-body">
           <h1 className="show-card-body-title">
             {renderSpans(cardData.title)}

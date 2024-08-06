@@ -185,169 +185,141 @@
     {
       "id": "p-1",
       "name": "We The Wild",
-      "description": "",
+      "description": "I used to work with the bassist to a band called We The Wild. Good band. Check them out. I got bored during my lunch break and drafted up a poster concept. I went with a look that pulled from minimalist wood block prints. I might have also had the box art to the cult Japanese film House within arms reach.",
       "technology": "Photoshop, Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FWeTheWild.jpeg?alt=media&token=2a0b520d-a77b-47bb-9607-8729a1df8afe",
       "row": 1,
       "column": 1,
-      "title": [
-        "Helping {",
-        { "type": "highlight", "content": "FRIEND" },
-        " -s}"
-      ]
+      "title": ["Rocking {", { "type": "highlight", "content": "OUT" }, "}"]
     },
     {
       "id": "p-2",
       "name": "In The Future There Will Be Love",
-      "description": "",
+      "description": "A piece originally created in collage when i first learned how to use the lasso tool in photoshop. I updated it a couple of years later as a vector graphic for my wife to put on a shirt.",
       "technology": "Photoshop, Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Frobots_love_2020.jpeg?alt=media&token=483caa04-9548-443b-873b-4630cb997a83",
       "row": 1,
       "column": 2,
       "title": [
-        "Helping {",
-        { "type": "highlight", "content": "FRIEND" },
-        " -s}"
+        "The Heart {",
+        { "type": "highlight", "content": "YEARN" },
+        "-s}"
       ]
     },
     {
       "id": "p-3",
       "name": "Samurai-?",
-      "description": "",
+      "description": "A Ukiyo-e inspired illustration of the Samurai class from Final fantasy 14. Drawn at the request of a friend who wanted a new profile image for discord.",
       "technology": "Photoshop, Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fff14_samurai_avatar_.jpeg?alt=media&token=4b300c31-ee40-4aa2-ba88-fe7e223684a1",
       "row": 1,
       "column": 3,
       "title": [
-        "Helping {",
-        { "type": "highlight", "content": "FRIEND" },
-        " -s}"
+        "{",
+        { "type": "highlight", "content": "Cutting" },
+        "} To The Chase"
       ]
     },
     {
       "id": "p-4",
       "name": "Ker-Plunke-rt",
-      "description": "",
+      "description": "Part of a series of illustrations loosly inspired by the works of David Plunkert. Not much to say. At it's core it's needlesly complicated collage art and I love it. ",
       "technology": "Photoshop",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fself_portrait.jpeg?alt=media&token=e756a763-72cb-45b1-aa4f-c687fed03e44",
       "row": 2,
       "column": 1,
-      "title": [
-        "Helping {",
-        { "type": "highlight", "content": "FRIEND" },
-        " -s}"
-      ]
+      "title": ["Copy & {", { "type": "highlight", "content": "PASTE" }, "}"]
     },
     {
       "id": "p-5",
       "name": "I Can Type When I Want To",
-      "description": "",
+      "description": "I don't do too much typography. Not because I can't. I'm just recovering from deep seeded trauma caused a college proffesor with a cult like obsession with Helvetica.",
       "technology": "Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FFlorida.jpeg?alt=media&token=2cb52b65-0cbd-486f-99d0-30f945580712",
       "row": 2,
       "column": 2,
-      "title": [
-        "Helping {",
-        { "type": "highlight", "content": "FRIEND" },
-        " -s}"
-      ]
+      "title": ["Typo {", { "type": "highlight", "content": "GRAPHY" }, "}"]
     },
     {
       "id": "p-6",
-      "name": "Die",
-      "description": "",
+      "name": "Here There Be Dragons",
+      "description": "A single page illustration depicting the anxiety of the dice rolls in table top gaming. I'm a minimalist at heart and if I could, I would probably compose everyting in high contrast black and white with only geometrically balanced circles, squares and triangle. Alas, this dark urge conflicts with my desire to also be employable",
       "technology": "Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fdie_mockup.jpeg?alt=media&token=c6c5b07c-2827-407d-a5a9-256f6f48b2f2",
       "row": 2,
       "column": 3,
-      "title": [
-        "Helping {",
-        { "type": "highlight", "content": "FRIEND" },
-        " -s}"
-      ]
+      "title": ["{", { "type": "highlight", "content": "DIE" }, "}"]
     },
     {
       "id": "p-7",
       "name": "The One Time I Won An Award",
-      "description": "",
+      "description": "As the title suggests, this one won an award. So it gets to be here by default. I've improved alot since this. It was a class project to create a minimalist illustration of a randomly selected childrens story. I might revisit one day and give the concept the polish it deserves.",
       "technology": "Photoshop",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fpigs.jpeg?alt=media&token=526c5807-debf-4b1c-b1e7-241bc2656c37",
       "row": 1,
       "column": 4,
-      "title": [
-        "Helping {",
-        { "type": "highlight", "content": "FRIEND" },
-        " -s}"
-      ]
+      "title": ["Little Pigs {", { "type": "highlight", "content": "3" }, "}"]
     },
     {
       "id": "p-8",
       "name": "Retro Hardware",
-      "description": "",
+      "description": "I started a series of ilustrations of retro hardware during my lunch break at gillespie graphics. I never got past the one image. What can I say. Bussiness was good and lunch breaks were short.",
       "technology": "Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FGameboy.jpeg?alt=media&token=527fb4db-6f51-40d9-9a8f-ab3bac74e506",
       "row": 1,
       "column": 5,
-      "title": [
-        "Helping {",
-        { "type": "highlight", "content": "FRIEND" },
-        " -s}"
-      ]
+      "title": ["A Quick {", { "type": "highlight", "content": "FINISH" }, "}"]
     },
     {
       "id": "p-9",
-      "name": "Legally Distinct Characters",
-      "description": "",
+      "name": "Legally Distinct Character",
+      "description": "Another lunch break project. My wife loves Kirby and I love my wife. So what makes this legally distinct? The keen eyed will notice that my Kirby wears a very nice hat. This is an image of him running home to get it.",
       "technology": "Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fdef_not_kirby.jpeg?alt=media&token=1c39ba30-3090-40ef-bfa8-4f61f389f59d",
       "row": 1,
       "column": 6,
-      "title": [
-        "Helping {",
-        { "type": "highlight", "content": "FRIEND" },
-        " -s}"
-      ]
+      "title": ["Puff {", { "type": "highlight", "content": "BALL" }, "}"]
     },
     {
       "id": "p-10",
       "name": "Terrarium",
-      "description": "",
+      "description": "This was one of those illustrations where I flew by the seat of my pants and just let the digital ink flow. Not sure what it is, but I'm fond of it.",
       "technology": "Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fastro.jpeg?alt=media&token=1834b3f3-055c-4e9a-926d-aba5563f0497",
       "row": 2,
       "column": 4,
       "title": [
-        "Helping {",
-        { "type": "highlight", "content": "FRIEND" },
-        " -s}"
+        "I Really {",
+        { "type": "highlight", "content": "DO NOT" },
+        "} Know"
       ]
     },
     {
       "id": "p-11",
       "name": "Padding",
-      "description": "",
+      "description": "This piece is called progress. Its another Plunkert inspired piece about the monotony of always needing to update your portfolio. It feels like you're stuck in a creating loading screen just waiting for your life to blue screen.",
       "technology": "",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FProgress.jpeg?alt=media&token=8667bc56-b3f7-46df-afaa-2b41dc8fe667",
       "row": 2,
       "column": 5,
       "title": [
-        "Helping {",
-        { "type": "highlight", "content": "FRIEND" },
-        " -s}"
+        "Loading {",
+        { "type": "highlight", "content": "LOADING" },
+        "} Loading"
       ]
     },
     {
       "id": "p-12",
-      "name": "",
+      "name": "Coming Soon",
       "description": "",
       "technology": "",
       "image": "./images/under-construction.png",
       "row": 2,
       "column": 6,
       "title": [
-        "Helping {",
-        { "type": "highlight", "content": "FRIEND" },
-        " -s}"
+        "Check Back {",
+        { "type": "highlight", "content": "LATER" },
+        "}"
       ]
     }
   ],
