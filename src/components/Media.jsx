@@ -5,15 +5,21 @@ import ArrowDown from "/images/arrow_downward_24dp_5F6368_FILL0_wght400_GRAD0_op
 
 function Media({ data }) {
   return (
-    <div className="video-container">
-      <iframe
-        width="600"
-        src="https://youtube.com/embed/BvyFCyFCmzs"
-        title="YouTube video"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
-    </div>
+    <>
+      <div className="video-container">
+        <div className="media-message">
+          My reel is under construction. In the meantime, please enjoy this
+          vidually interesting work sample
+        </div>
+        <iframe
+          width="600"
+          src="https://youtube.com/embed/BvyFCyFCmzs"
+          title="YouTube video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </>
   );
 }
 

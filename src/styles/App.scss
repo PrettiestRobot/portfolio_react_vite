@@ -626,10 +626,20 @@ footer {
 
 //media container
 
+.media-message {
+  width: 100%;
+  padding: 8px;
+  background-color: lighten($primary-btn, 15%);
+  color: $text-light;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
 .video-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 0 40px;
   width: 100%;
 }
@@ -815,5 +825,9 @@ iframe {
     &.info-active {
       display: flex;
     }
+  }
+
+  .video-container {
+    padding: 0 16px;
   }
 }
