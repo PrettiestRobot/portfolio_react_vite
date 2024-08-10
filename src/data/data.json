@@ -1,25 +1,25 @@
 {
   "commercialBlock": {
     "title": "Commercial Graphics & Print",
-    "description": "A scrapbook of projects I've worked on over the years. A lot of my work has been white label with a very strict \"if you leave the office with our files we WILL find you\" policy, so please excuse me if \"the process\" isn't as well documented as I'd like. Not to toot my own horn, but until 2020, work was pretty steady, and the idea that I would need to keep my work for a portfolio was a very naive non-consideration. Hindsight! Am I right?"
+    "description": "A scrapbook of projects I've worked on over the years. A lot of my work has been white label with a very strict \"if you leave the office with our files, we WILL find you\" policy, so please excuse me if \"the process\" isn't as well documented as I'd like. Not to toot my own horn, but until 2020, work was pretty steady, and the idea that I would need to keep my work for a portfolio was a very naive non-consideration. Hindsight! Am I right?"
   },
   "personalBlock": {
     "title": "Personal Graphics",
-    "description": "Odds and ends I've put together in my spare time. An eclectic body of work that highlights my cursed habit of never settling on one style. I'm the guy who looks at something and thinks: \"How did they do that? Let's find out!\" Some might say I'm a jack of all trade and a master of none. I say I'm a jack of all trades who gets the job done."
+    "description": "Odds and ends I've put together in my spare time. An eclectic body of work that highlights my cursed habit of never settling on one style. I'm the guy who looks at something and thinks: \"How did they do that? Let's find out!\" Some might say I'm a jack of all trades and a master of none. I say I'm a jack of all trades who gets the job done."
   },
   "motionBlock": {
     "title": "Motion Graphics",
-    "description": "More of a passionate pastime than a profession for me. Motion Graphics is something I've been slowly growing into over the years. I've always been fascinated by the ability of motion to elevate even the most mundane illustrations into something really wild. Show someone a picture of a poptart? Cute. Make that poptart dance? Go viral!"
+    "description": "More of a passionate pastime than a profession for me. Motion Graphics is something I've been slowly growing into over the years. I've always been fascinated by the ability of motion to elevate even the most mundane illustrations into something really wild. Show someone a picture of a pop tart? Cute. Make that pop tart dance? Go viral!"
   },
   "webBlock": {
     "title": "Web Development",
-    "description": "This is the newest member of the family, but don't be fooled by the new baby smell. Software is my passion. The marriage of flat graphics, audio and video. It's where I really get to push the \"jack of all trades\" thing to the limit and it's the thing I'm most excited about showing off in the future. (my wife says it sounds like chat gpt wrote this. I say chat gpt writes like me and that its own problem)"
+    "description": "This is the newest member of the family, but don't be fooled by the new baby smell. Software is my passion. The marriage of flat graphics, audio, and video is where I really get to push the \"jack of all trades\" thing to the limit, and it's the thing I'm most excited about showing off in the future. (My wife says it sounds like ChatGPT wrote this. I say ChatGPT writes like me, and that's its own problem.)"
   },
   "commercial": [
     {
       "id": "c-1",
       "name": "Talking Across The Political Divide Event Schedule",
-      "description": "A small one-shot event poster for a local seminar with the goal of helping people learn to see past each other's political differences and learn to come together as a community.",
+      "description": "A small one-shot event poster for a local seminar with the goal of helping people learn to see past each other's political differences and come together as a community.",
       "technology": "Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FPolitical_Divide.jpg?alt=media&token=2c251cc4-c6fa-49aa-8925-021acb960bfd",
       "row": 1,
@@ -33,7 +33,7 @@
     {
       "id": "c-2",
       "name": "Print Works Collateral",
-      "description": "An update to PrintWorks branding. It was a three-prong request for a marketing deck layout, business card and digital newsletter. Per client request, I kept their traditional logo and opted to build a CMYK theme around it that mixes color and images overlays to draw focus to PrintWorks specialization in print graphics and vehicle wraps.",
+      "description": "An update to PrintWorks branding. It was a three-prong request for a marketing deck layout, business card, and digital newsletter. Per client request, I kept their traditional logo and opted to build a CMYK theme around it that mixes color and image overlays to draw focus to PrintWorks’ specialization in print graphics and vehicle wraps.",
       "technology": "Illustrator, InDesign, Photoshop",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FPrintWorks_BC.jpg?alt=media&token=98fa5146-53d3-42c8-a1af-861ed041e886",
       "row": 1,
@@ -85,7 +85,7 @@
     {
       "id": "c-6",
       "name": "Curious Comedy Event Poster",
-      "description": "An event poster for Curious Comedy's improv night. One of my earliest commercial pieces. I was given 100% creative freedom and decided to go for a cut-and-paste look in the style of Monty Python era Terry Gilliam.",
+      "description": "An event poster for Curious Comedy's improv night. One of my earliest commercial pieces. I was given 100% creative freedom and decided to go for a cut-and-paste look in the style of Monty Python-era Terry Gilliam.",
       "technology": "Photoshop",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FCurious_Comedy_mockup.jpeg?alt=media&token=a035f134-8b8f-4b0e-a8fe-5371a55082ce",
       "row": 2,
@@ -99,7 +99,7 @@
     {
       "id": "c-7",
       "name": "Kelly Quinn Pumpkin Brew",
-      "description": "This one is just a mockup but one I was fond enough of to put in my portfolio. Another early work inspired by the collage styles of Terry Gilliam and David Plunkert, it's a bottle label design for Kelly Quinn's seasonal pumpkin brew. Unfortunately, a hard drive malfunction means the box art and rest of the branding is lost to time.",
+      "description": "This one is just a mockup but one I was fond enough of to put in my portfolio. Another early work inspired by the collage styles of Terry Gilliam and David Plunkert, it's a bottle label design for Kelly Quinn's seasonal pumpkin brew. Unfortunately, a hard drive malfunction means the box art and the rest of the branding is lost to time.",
       "technology": "Photoshop, Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FKelly_Quinn.jpeg?alt=media&token=2a28e0ac-e799-4256-aa73-3e7f282545fc",
       "row": 3,
@@ -113,7 +113,7 @@
     {
       "id": "c-8",
       "name": "Scary Stories Book Cover & Bookmark",
-      "description": "This one is commercial on a technicality simply because books are typically commercial products and no one just makes a book cover for fun....right? When I was a kid the \"Scary Stories To Tell In The Dark\" books utterly terrified me. The stories themselves were tame enough, but Stephen Gammel's inky artwork was a thing of nightmares. Sometimes literally. This project was my trauma therapy.",
+      "description": "This one is commercial on a technicality simply because books are typically commercial products and no one just makes a book cover for fun....right? When I was a kid, the \"Scary Stories To Tell In The Dark\" books utterly terrified me. The stories themselves were tame enough, but Stephen Gammell's inky artwork was a thing of nightmares. Sometimes literally. This project was my trauma therapy.",
       "technology": "Photoshop, InDesign",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FScary_Cover.jpeg?alt=media&token=808911c1-65d9-4f7c-b2c6-6cdc45d62425",
       "row": 3,
@@ -141,7 +141,7 @@
     {
       "id": "c-10",
       "name": "Kupo Net T-Shirt Designs",
-      "description": "A series of T-shirts for Kupo Net, a Final Fantasy 14 community group. The mascot is a moogle, a cute teddy bear creature from the Final Fantasy game series. Kupo is the noise a moogle makes. The designs incorporate moogle motifs with other cute creatures from the series to create a collection of distinct minimalistic designs. Yes. One shirt is a parody of the Punisher logo. I thought it would be fitting for the members who enjoy taking on the game's toughest challenges.",
+      "description": "A series of T-shirts for Kupo Net, a Final Fantasy 14 community group. The mascot is a moogle, a cute teddy bear creature from the Final Fantasy game series. Kupo is the noise a moogle makes. The designs incorporate moogle motifs with other cute creatures from the series to create a collection of distinct minimalistic designs. Yes, one shirt is a parody of the Punisher logo. I thought it would be fitting for the members who enjoy taking on the game's toughest challenges.",
       "technology": "Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FKupo_Mockup.jpeg?alt=media&token=97269f20-1f52-46b4-a221-ff9055856a1a",
       "row": 4,
@@ -155,7 +155,7 @@
     {
       "id": "c-11",
       "name": "Maxline Box Truck Layout",
-      "description": "A lot of my design experience has been vehicle graphics. Yet, somehow, this is the work I have the least examples of. The reason for this is usually contractual. This is one of those elusive vehicles. These jobs usually involved taking existing branding, recreating them as scalable vector graphics and using photographs and measurements to create a blueprint, mockups, and scale them for application.",
+      "description": "A lot of my design experience has been in vehicle graphics. Yet, somehow, this is the work I have the least examples of. The reason for this is usually contractual. This is one of those elusive vehicles. These jobs usually involved taking existing branding, recreating them as scalable vector graphics, and using photographs and measurements to create a blueprint, mockups, and scale them for application.",
       "technology": "Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FMaxline_Wrap.jpg?alt=media&token=244ba48e-4990-4201-96c5-456b11f2ccf4",
       "row": 4,
@@ -185,7 +185,7 @@
     {
       "id": "p-1",
       "name": "We The Wild",
-      "description": "I used to work with the bassist to a band called We The Wild. Good band. Check them out. I got bored during my lunch break and drafted up a poster concept. I went with a look that pulled from minimalist wood block prints. I might have also had the box art to the cult Japanese film House within arms reach.",
+      "description": "I used to work with the bassist of a band called We The Wild. Good band. Check them out. I got bored during my lunch break and drafted up a poster concept. I went with a look that pulled from minimalist woodblock prints. I might have also had the box art to the cult Japanese film House within arm's reach.",
       "technology": "Photoshop, Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FWeTheWild.jpeg?alt=media&token=2a0b520d-a77b-47bb-9607-8729a1df8afe",
       "row": 1,
@@ -195,7 +195,7 @@
     {
       "id": "p-2",
       "name": "In The Future There Will Be Love",
-      "description": "A piece originally created in collage when i first learned how to use the lasso tool in photoshop. I updated it a couple of years later as a vector graphic for my wife to put on a shirt.",
+      "description": "A piece originally created in collage when I first learned how to use the lasso tool in Photoshop. I updated it a couple of years later as a vector graphic for my wife to put on a shirt.",
       "technology": "Photoshop, Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Frobots_love_2020.jpeg?alt=media&token=483caa04-9548-443b-873b-4630cb997a83",
       "row": 1,
@@ -209,7 +209,7 @@
     {
       "id": "p-3",
       "name": "Samurai-?",
-      "description": "A Ukiyo-e inspired illustration of the Samurai class from Final fantasy 14. Drawn at the request of a friend who wanted a new profile image for discord.",
+      "description": "A Ukiyo-e inspired illustration of the Samurai class from Final Fantasy 14. Drawn at the request of a friend who wanted a new profile image for Discord.",
       "technology": "Photoshop, Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fff14_samurai_avatar_.jpeg?alt=media&token=4b300c31-ee40-4aa2-ba88-fe7e223684a1",
       "row": 1,
@@ -223,7 +223,7 @@
     {
       "id": "p-4",
       "name": "Ker-Plunke-rt",
-      "description": "Part of a series of illustrations loosly inspired by the works of David Plunkert. Not much to say. At it's core it's needlesly complicated collage art and I love it. ",
+      "description": "Part of a series of illustrations loosely inspired by the works of David Plunkert. Not much to say. At its core it's needlessly complicated collage art and I love it.",
       "technology": "Photoshop",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fself_portrait.jpeg?alt=media&token=e756a763-72cb-45b1-aa4f-c687fed03e44",
       "row": 2,
@@ -233,7 +233,7 @@
     {
       "id": "p-5",
       "name": "I Can Type When I Want To",
-      "description": "I don't do too much typography. Not because I can't. I'm just recovering from deep seeded trauma caused a college proffesor with a cult like obsession with Helvetica.",
+      "description": "I don't do too much typography. Not because I can't. I'm just recovering from deep-seated trauma caused by a college professor with a cult-like obsession with Helvetica.",
       "technology": "Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FFlorida.jpeg?alt=media&token=2cb52b65-0cbd-486f-99d0-30f945580712",
       "row": 2,
@@ -243,7 +243,7 @@
     {
       "id": "p-6",
       "name": "Here There Be Dragons",
-      "description": "A single page illustration depicting the anxiety of the dice rolls in table top gaming. I'm a minimalist at heart and if I could, I would probably compose everyting in high contrast black and white with only geometrically balanced circles, squares and triangle. Alas, this dark urge conflicts with my desire to also be employable",
+      "description": "A single page illustration depicting the anxiety of the dice rolls in tabletop gaming. I'm a minimalist at heart and if I could, I would probably compose everything in high contrast black and white with only geometrically balanced circles, squares, and triangles. Alas, this dark urge conflicts with my desire to also be employable.",
       "technology": "Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fdie_mockup.jpeg?alt=media&token=c6c5b07c-2827-407d-a5a9-256f6f48b2f2",
       "row": 2,
@@ -253,7 +253,7 @@
     {
       "id": "p-7",
       "name": "The One Time I Won An Award",
-      "description": "As the title suggests, this one won an award. So it gets to be here by default. I've improved alot since this. It was a class project to create a minimalist illustration of a randomly selected childrens story. I might revisit one day and give the concept the polish it deserves.",
+      "description": "As the title suggests, this one won an award. So it gets to be here by default. I've improved a lot since this. It was a class project to create a minimalist illustration of a randomly selected children's story. I might revisit it one day and give the concept the polish it deserves.",
       "technology": "Photoshop",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fpigs.jpeg?alt=media&token=526c5807-debf-4b1c-b1e7-241bc2656c37",
       "row": 1,
@@ -263,7 +263,7 @@
     {
       "id": "p-8",
       "name": "Retro Hardware",
-      "description": "I started a series of ilustrations of retro hardware during my lunch break at gillespie graphics. I never got past the one image. What can I say. Bussiness was good and lunch breaks were short.",
+      "description": "I started a series of illustrations of retro hardware during my lunch break at Gillespie Graphics. I never got past the one image. What can I say. Business was good and lunch breaks were short.",
       "technology": "Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FGameboy.jpeg?alt=media&token=527fb4db-6f51-40d9-9a8f-ab3bac74e506",
       "row": 1,
@@ -273,7 +273,7 @@
     {
       "id": "p-9",
       "name": "Legally Distinct Character",
-      "description": "Another lunch break project. My wife loves Kirby and I love my wife. So what makes this legally distinct? The keen eyed will notice that my Kirby wears a very nice hat. This is an image of him running home to get it.",
+      "description": "Another lunch break project. My wife loves Kirby and I love my wife. So what makes this legally distinct? The keen-eyed will notice that my Kirby wears a very nice hat. This is an image of him running home to get it.",
       "technology": "Illustrator",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fdef_not_kirby.jpeg?alt=media&token=1c39ba30-3090-40ef-bfa8-4f61f389f59d",
       "row": 1,
@@ -297,7 +297,7 @@
     {
       "id": "p-11",
       "name": "Padding",
-      "description": "This piece is called progress. Its another Plunkert inspired piece about the monotony of always needing to update your portfolio. It feels like you're stuck in a creating loading screen just waiting for your life to blue screen.",
+      "description": "This piece is called progress. It's another Plunkert-inspired piece about the monotony of always needing to update your portfolio. It feels like you're stuck in a creating loading screen just waiting for your life to blue screen.",
       "technology": "",
       "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FProgress.jpeg?alt=media&token=8667bc56-b3f7-46df-afaa-2b41dc8fe667",
       "row": 2,
@@ -497,7 +497,7 @@
     {
       "id": "w-1",
       "name": "Savory Scenes",
-      "description": "A responsive front end for Savory Scenes. A fictional resteraunt that features an interactive Ui, reservation form, contact for and google map integration. ",
+      "description": "A responsive front end for Savory Scenes. A fictional restaurant that features an interactive UI, reservation form, contact form, and Google Map integration.",
       "technology": "React, Sass, Google Maps API, Javascript, HTML5, CSS",
       "image": "./images/under-construction.png",
       "readme": "https://github.com/PrettiestRobot/Savory_Scenes/blob/main/README.md",
