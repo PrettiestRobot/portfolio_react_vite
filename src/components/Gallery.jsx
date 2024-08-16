@@ -97,7 +97,7 @@ function Gallery({ data }) {
                 className="gallery-img"
                 onLoad={handleImageLoad}
                 onError={handleImageError}
-                src={data.image}
+                src={data.image[0]}
               />
             </div>
           ))}

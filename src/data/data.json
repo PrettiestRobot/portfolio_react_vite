@@ -21,7 +21,9 @@
       "name": "Talking Across The Political Divide Event Schedule",
       "description": "A small one-shot event poster for a local seminar with the goal of helping people learn to see past each other's political differences and come together as a community.",
       "technology": "Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FPolitical_Divide.jpg?alt=media&token=2c251cc4-c6fa-49aa-8925-021acb960bfd",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FPolitical_Divide.jpg?alt=media&token=2c251cc4-c6fa-49aa-8925-021acb960bfd"
+      ],
       "row": 1,
       "column": 1,
       "title": [
@@ -35,7 +37,11 @@
       "name": "Print Works Collateral",
       "description": "An update to PrintWorks branding. It was a three-prong request for a marketing deck layout, business card, and digital newsletter. Per client request, I kept their traditional logo and opted to build a CMYK theme around it that mixes color and image overlays to draw focus to PrintWorks’ specialization in print graphics and vehicle wraps.",
       "technology": "Illustrator, InDesign, Photoshop",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FPrintWorks_BC.jpg?alt=media&token=98fa5146-53d3-42c8-a1af-861ed041e886",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FPrintWorks_BC.jpg?alt=media&token=98fa5146-53d3-42c8-a1af-861ed041e886",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FPrintWorks_Deck.jpg?alt=media&token=87e9991a-e210-4c78-a102-c0e607593899",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FPrintWorks_eblast.jpg?alt=media&token=7d675b1f-6749-4fed-882e-b736753f0baa"
+      ],
       "row": 1,
       "column": 2,
       "title": [
@@ -49,7 +55,9 @@
       "name": "Walton Buttons & Fridge Magnets",
       "description": "A contract job through All Points Media and PrintWorks to create a series of pin-back buttons and fridge magnets for Walton Physical Therapy. Taking into consideration the client's budget restrictions and very quick turnaround, I repurposed the existing Walton visual tone and affixed it to a series of circular and square layouts.",
       "technology": "Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FWalton_Buttons.jpg?alt=media&token=703e7970-9aa2-4974-84b1-d7f6867d2713",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FWalton_Buttons.jpg?alt=media&token=703e7970-9aa2-4974-84b1-d7f6867d2713"
+      ],
       "row": 1,
       "column": 3,
       "title": ["{", { "type": "highlight", "content": "BUTTON" }, "} Down"]
@@ -59,7 +67,10 @@
       "name": "Camp Discovery Lodge Interior Layouts",
       "description": "A team project from my time at Gillespie Graphics. The client was renovating a fleet of cruise ships and needed interior graphics and dimensional signs for their Discovery Channel-themed teen lodge. My contribution was to take existing graphic samples provided by the client and expand them into scalable vector art panels that could be produced in interlocking strips to fit a variety of internal layouts such as the one pictured.",
       "technology": "Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FCamp_Discovery_Lodge.jpg?alt=media&token=60c6cb17-f348-4c57-9c66-387d539969c7",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FCamp_Discovery_Lodge.jpg?alt=media&token=60c6cb17-f348-4c57-9c66-387d539969c7",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FCamp_Discovery_Beach_House.jpg?alt=media&token=b2eeb1da-a298-4f79-912c-99238ae103e4"
+      ],
       "row": 2,
       "column": 1,
       "title": [
@@ -73,7 +84,9 @@
       "name": "Clackamas County Police Bike Stripes",
       "description": "A simple repurposing of existing stripes for Clackamas County police cruisers to fit a fleet of bikes. Not much else to say about this one. It's pretty self-explanatory.",
       "technology": "Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FClackamas_County_Police_Bike.jpg?alt=media&token=27132dc7-9f42-45ff-98d3-671070b5be54",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FClackamas_County_Police_Bike.jpg?alt=media&token=27132dc7-9f42-45ff-98d3-671070b5be54"
+      ],
       "row": 2,
       "column": 2,
       "title": [
@@ -87,7 +100,10 @@
       "name": "Curious Comedy Event Poster",
       "description": "An event poster for Curious Comedy's improv night. One of my earliest commercial pieces. I was given 100% creative freedom and decided to go for a cut-and-paste look in the style of Monty Python-era Terry Gilliam.",
       "technology": "Photoshop",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FCurious_Comedy_mockup.jpeg?alt=media&token=a035f134-8b8f-4b0e-a8fe-5371a55082ce",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FCurious_Comedy_mockup.jpeg?alt=media&token=a035f134-8b8f-4b0e-a8fe-5371a55082ce",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FCurious_Comedy_Poster.jpeg?alt=media&token=6d828022-70b6-4ee7-a0e9-d448712bc3d7"
+      ],
       "row": 2,
       "column": 3,
       "title": [
@@ -99,9 +115,12 @@
     {
       "id": "c-7",
       "name": "Kelly Quinn Pumpkin Brew",
-      "description": "This one is just a mockup but one I was fond enough of to put in my portfolio. Another early work inspired by the collage styles of Terry Gilliam and David Plunkert, it's a bottle label design for Kelly Quinn's seasonal pumpkin brew. Unfortunately, a hard drive malfunction means the box art and the rest of the branding is lost to time.",
+      "description": "This one is just a mockup but one I was fond enough of to put in my portfolio. Another early work inspired by the collage styles of Terry Gilliam and David Plunkert, it's a bottle label design for Kelly Quinn's seasonal pumpkin brew. Unfortunately, a hard drive malfunction means the box art and the rest of the branding is lost to time. To make up for it, I've included unused t-shirt branding for the brew club Kelly Quinn associated with.",
       "technology": "Photoshop, Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FKelly_Quinn.jpeg?alt=media&token=2a28e0ac-e799-4256-aa73-3e7f282545fc",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FKelly_Quinn.jpeg?alt=media&token=2a28e0ac-e799-4256-aa73-3e7f282545fc",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FHT.jpeg?alt=media&token=71a5ed3f-8642-493c-afe7-9c356c4e7437"
+      ],
       "row": 3,
       "column": 1,
       "title": [
@@ -115,7 +134,10 @@
       "name": "Scary Stories Book Cover & Bookmark",
       "description": "This one is commercial on a technicality simply because books are typically commercial products and no one just makes a book cover for fun....right? When I was a kid, the \"Scary Stories To Tell In The Dark\" books utterly terrified me. The stories themselves were tame enough, but Stephen Gammell's inky artwork was a thing of nightmares. Sometimes literally. This project was my trauma therapy.",
       "technology": "Photoshop, InDesign",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FScary_Cover.jpeg?alt=media&token=808911c1-65d9-4f7c-b2c6-6cdc45d62425",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FScary_Cover.jpeg?alt=media&token=808911c1-65d9-4f7c-b2c6-6cdc45d62425",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FBook%20_Cover_BP.jpeg?alt=media&token=12f9ec77-1daa-44d1-803b-c0209e3de35a"
+      ],
       "row": 3,
       "column": 2,
       "title": [
@@ -129,7 +151,9 @@
       "name": "City Of Seattle T-Shirt",
       "description": "A Seattle-themed T-shirt designed in the style of Aaron Draplin. No client. I've just had enough people ask if I can do T-shirts that I decided it belongs here on a technicality.",
       "technology": "Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FSeattle_Mockup.jpeg?alt=media&token=f9105b00-5749-456a-ab36-a6ac9f6d883b",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FSeattle_Mockup.jpeg?alt=media&token=f9105b00-5749-456a-ab36-a6ac9f6d883b"
+      ],
       "row": 3,
       "column": 3,
       "title": [
@@ -143,7 +167,15 @@
       "name": "Kupo Net T-Shirt Designs",
       "description": "A series of T-shirts for Kupo Net, a Final Fantasy 14 community group. The mascot is a moogle, a cute teddy bear creature from the Final Fantasy game series. Kupo is the noise a moogle makes. The designs incorporate moogle motifs with other cute creatures from the series to create a collection of distinct minimalistic designs. Yes, one shirt is a parody of the Punisher logo. I thought it would be fitting for the members who enjoy taking on the game's toughest challenges.",
       "technology": "Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FKupo_Mockup.jpeg?alt=media&token=97269f20-1f52-46b4-a221-ff9055856a1a",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FKupo_Mockup.jpeg?alt=media&token=97269f20-1f52-46b4-a221-ff9055856a1a",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FKupo2.jpeg?alt=media&token=6026e169-1598-49c3-be07-b9fb99276d1b",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FKupo_1.jpeg?alt=media&token=f842f044-bea9-4dc1-b4f4-824313792b9e",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FKupo_3.jpeg?alt=media&token=47f7b8a7-08bd-4719-95aa-924f8dcc165d",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FKupo_4.jpeg?alt=media&token=1dc6faa7-eb17-48dc-80e9-b645a45f9a13",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FKupo_BP_1.jpeg?alt=media&token=9a24f1b2-914c-4406-afdc-94bacdf8ca17",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FKupo_BP_2.jpeg?alt=media&token=8fed2640-08c4-418e-a8aa-61aa2603e771"
+      ],
       "row": 4,
       "column": 1,
       "title": [
@@ -157,7 +189,9 @@
       "name": "Maxline Box Truck Layout",
       "description": "A lot of my design experience has been in vehicle graphics. Yet, somehow, this is the work I have the least examples of. The reason for this is usually contractual. This is one of those elusive vehicles. These jobs usually involved taking existing branding, recreating them as scalable vector graphics, and using photographs and measurements to create a blueprint, mockups, and scale them for application.",
       "technology": "Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FMaxline_Wrap.jpg?alt=media&token=244ba48e-4990-4201-96c5-456b11f2ccf4",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FMaxline_Wrap.jpg?alt=media&token=244ba48e-4990-4201-96c5-456b11f2ccf4"
+      ],
       "row": 4,
       "column": 2,
       "title": [
@@ -171,7 +205,9 @@
       "name": "Bumble Ad Van Layout",
       "description": "A very specific job for a very specific client. APM owns a fleet of Digital AdVans they license out to brands for events. My job was often to create a proof of concept they could show a potential client to get them to sign on. Though not always visually appealing due to a very short turnaround (sometimes only hours before meeting a client), I still think it's worth showing. All I'd have was the client's name. The rest was on me.",
       "technology": "Photoshop, Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FBumble_Mockup.png?alt=media&token=e58b125a-13c9-4aee-bd4a-6c2e69d6cad7",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FBumble_Mockup.png?alt=media&token=e58b125a-13c9-4aee-bd4a-6c2e69d6cad7"
+      ],
       "row": 4,
       "column": 3,
       "title": [
@@ -187,7 +223,10 @@
       "name": "We The Wild",
       "description": "I used to work with the bassist of a band called We The Wild. Good band. Check them out. I got bored during my lunch break and drafted up a poster concept. I went with a look that pulled from minimalist woodblock prints. I might have also had the box art to the cult Japanese film House within arm's reach.",
       "technology": "Photoshop, Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FWeTheWild.jpeg?alt=media&token=2a0b520d-a77b-47bb-9607-8729a1df8afe",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FWeTheWild_mockup.jpeg?alt=media&token=a9889301-e82a-47bc-9c10-ea5f5c299d66",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FWeTheWild.jpeg?alt=media&token=2a0b520d-a77b-47bb-9607-8729a1df8afe"
+      ],
       "row": 1,
       "column": 1,
       "title": ["Rocking {", { "type": "highlight", "content": "OUT" }, "}"]
@@ -197,7 +236,11 @@
       "name": "In The Future There Will Be Love",
       "description": "A piece originally created in collage when I first learned how to use the lasso tool in Photoshop. I updated it a couple of years later as a vector graphic for my wife to put on a shirt.",
       "technology": "Photoshop, Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Frobots_love_2020.jpeg?alt=media&token=483caa04-9548-443b-873b-4630cb997a83",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Frobots_love_2020.jpeg?alt=media&token=483caa04-9548-443b-873b-4630cb997a83",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Frobots_love_og.jpeg?alt=media&token=0ec59fb7-44e5-404f-a770-694a7ea5db6f",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FRobots_Love.jpg?alt=media&token=8c297f15-6bd3-4960-9c8b-6897ad5a6303"
+      ],
       "row": 1,
       "column": 2,
       "title": [
@@ -211,7 +254,9 @@
       "name": "Samurai-?",
       "description": "A Ukiyo-e inspired illustration of the Samurai class from Final Fantasy 14. Drawn at the request of a friend who wanted a new profile image for Discord.",
       "technology": "Photoshop, Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fff14_samurai_avatar_.jpeg?alt=media&token=4b300c31-ee40-4aa2-ba88-fe7e223684a1",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fff14_samurai_avatar_.jpeg?alt=media&token=4b300c31-ee40-4aa2-ba88-fe7e223684a1"
+      ],
       "row": 1,
       "column": 3,
       "title": [
@@ -223,9 +268,17 @@
     {
       "id": "p-4",
       "name": "Ker-Plunke-rt",
-      "description": "Part of a series of illustrations loosely inspired by the works of David Plunkert. Not much to say. At its core it's needlessly complicated collage art and I love it.",
+      "description": "A series of illustrations inspired by the works of David Plunkert and Terry Gilliam. I've always had a fascination with the tactile nature of collage work and it wasn't long before I gained a reputation in collage as being the guy you go to when you want something to look intentionally crappy.",
       "technology": "Photoshop",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fself_portrait.jpeg?alt=media&token=e756a763-72cb-45b1-aa4f-c687fed03e44",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fself_portrait.jpeg?alt=media&token=e756a763-72cb-45b1-aa4f-c687fed03e44",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FMajor_Tom.jpeg?alt=media&token=752172d5-85c7-4c60-b97d-5fbcafbb9065",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FProgress.jpeg?alt=media&token=8667bc56-b3f7-46df-afaa-2b41dc8fe667",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Ffood.jpeg?alt=media&token=7e611617-9b3b-4f7e-96cb-33b4711f2f6a",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fread.jpeg?alt=media&token=586c1ec6-123e-4b37-a572-f5d2f2e109ba",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fgrace.jpeg?alt=media&token=3ed653cf-16fd-493c-9f38-76e54b94b52c",
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FI_am_the_planet.jpeg?alt=media&token=69f69a5d-40e5-4207-bc1f-3939e2aa6e04"
+      ],
       "row": 2,
       "column": 1,
       "title": ["Copy & {", { "type": "highlight", "content": "PASTE" }, "}"]
@@ -235,7 +288,9 @@
       "name": "I Can Type When I Want To",
       "description": "I don't do too much typography. Not because I can't. I'm just recovering from deep-seated trauma caused by a college professor with a cult-like obsession with Helvetica.",
       "technology": "Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FFlorida.jpeg?alt=media&token=2cb52b65-0cbd-486f-99d0-30f945580712",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FFlorida.jpeg?alt=media&token=2cb52b65-0cbd-486f-99d0-30f945580712"
+      ],
       "row": 2,
       "column": 2,
       "title": ["Typo {", { "type": "highlight", "content": "GRAPHY" }, "}"]
@@ -245,7 +300,9 @@
       "name": "Here There Be Dragons",
       "description": "A single page illustration depicting the anxiety of the dice rolls in tabletop gaming. I'm a minimalist at heart and if I could, I would probably compose everything in high contrast black and white with only geometrically balanced circles, squares, and triangles. Alas, this dark urge conflicts with my desire to also be employable.",
       "technology": "Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fdie_mockup.jpeg?alt=media&token=c6c5b07c-2827-407d-a5a9-256f6f48b2f2",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fdie_mockup.jpeg?alt=media&token=c6c5b07c-2827-407d-a5a9-256f6f48b2f2"
+      ],
       "row": 2,
       "column": 3,
       "title": ["{", { "type": "highlight", "content": "DIE" }, "}"]
@@ -255,7 +312,9 @@
       "name": "The One Time I Won An Award",
       "description": "As the title suggests, this one won an award. So it gets to be here by default. I've improved a lot since this. It was a class project to create a minimalist illustration of a randomly selected children's story. I might revisit it one day and give the concept the polish it deserves.",
       "technology": "Photoshop",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fpigs.jpeg?alt=media&token=526c5807-debf-4b1c-b1e7-241bc2656c37",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fpigs.jpeg?alt=media&token=99868655-750f-4378-a675-bf0b8d38b2de"
+      ],
       "row": 1,
       "column": 4,
       "title": ["Little Pigs {", { "type": "highlight", "content": "3" }, "}"]
@@ -265,7 +324,9 @@
       "name": "Retro Hardware",
       "description": "I started a series of illustrations of retro hardware during my lunch break at Gillespie Graphics. I never got past the one image. What can I say. Business was good and lunch breaks were short.",
       "technology": "Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FGameboy.jpeg?alt=media&token=527fb4db-6f51-40d9-9a8f-ab3bac74e506",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FGameboy.jpeg?alt=media&token=527fb4db-6f51-40d9-9a8f-ab3bac74e506"
+      ],
       "row": 1,
       "column": 5,
       "title": ["A Quick {", { "type": "highlight", "content": "FINISH" }, "}"]
@@ -275,7 +336,9 @@
       "name": "Legally Distinct Character",
       "description": "Another lunch break project. My wife loves Kirby and I love my wife. So what makes this legally distinct? The keen-eyed will notice that my Kirby wears a very nice hat. This is an image of him running home to get it.",
       "technology": "Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fdef_not_kirby.jpeg?alt=media&token=1c39ba30-3090-40ef-bfa8-4f61f389f59d",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fdef_not_kirby.jpeg?alt=media&token=1c39ba30-3090-40ef-bfa8-4f61f389f59d"
+      ],
       "row": 1,
       "column": 6,
       "title": ["Puff {", { "type": "highlight", "content": "BALL" }, "}"]
@@ -285,7 +348,9 @@
       "name": "Terrarium",
       "description": "This was one of those illustrations where I flew by the seat of my pants and just let the digital ink flow. Not sure what it is, but I'm fond of it.",
       "technology": "Illustrator",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fastro.jpeg?alt=media&token=1834b3f3-055c-4e9a-926d-aba5563f0497",
+      "image": [
+        "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2Fastro.jpeg?alt=media&token=1834b3f3-055c-4e9a-926d-aba5563f0497"
+      ],
       "row": 2,
       "column": 4,
       "title": [
@@ -296,16 +361,16 @@
     },
     {
       "id": "p-11",
-      "name": "Padding",
-      "description": "This piece is called progress. It's another Plunkert-inspired piece about the monotony of always needing to update your portfolio. It feels like you're stuck in a creating loading screen just waiting for your life to blue screen.",
+      "name": "Coming Soon",
+      "description": "",
       "technology": "",
-      "image": "https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FProgress.jpeg?alt=media&token=8667bc56-b3f7-46df-afaa-2b41dc8fe667",
+      "image": ["./images/under-construction.png"],
       "row": 2,
-      "column": 5,
+      "column": 6,
       "title": [
-        "Loading {",
-        { "type": "highlight", "content": "LOADING" },
-        "} Loading"
+        "Check Back {",
+        { "type": "highlight", "content": "LATER" },
+        "}"
       ]
     },
     {
@@ -313,7 +378,7 @@
       "name": "Coming Soon",
       "description": "",
       "technology": "",
-      "image": "./images/under-construction.png",
+      "image": ["./images/under-construction.png"],
       "row": 2,
       "column": 6,
       "title": [
