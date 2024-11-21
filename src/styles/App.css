@@ -1,3 +1,11 @@
+@keyframes flicker {
+  0% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 * {
   box-sizing: border-box;
   font-family: "Barlow", sans-serif;
@@ -22,6 +30,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/bg_texture.png?alt=media&token=bed7078b-6d77-44f9-921d-92298fd028e4");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.25; /* 50% transparency */
+  z-index: -1; /* Send background behind other content */
 }
 
 main {
@@ -92,6 +114,9 @@ main {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+.nav .nav-btn-container.home {
+  display: none;
 }
 .nav .nav-btn-container .nav-page-link {
   display: flex;
@@ -455,6 +480,12 @@ main {
   width: 100%;
   height: 100%;
   transition: 0.75s ease-in-out;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.show-card-container .show-card::-webkit-scrollbar {
+  display: none;
 }
 .show-card-container .show-card .show-card-top {
   display: grid;
@@ -531,7 +562,6 @@ main {
   display: flex;
   max-width: 1080px;
   width: 100%;
-  height: 100%;
   margin-top: 1rem;
   position: relative;
 }
@@ -620,20 +650,76 @@ main {
   border: none;
 }
 
-.about-container .gallery-block {
-  margin: 0;
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 110px);
 }
 
-.about .self {
-  display: flex;
-  max-width: 400px;
-  width: 100%;
-}
-.about .self img {
+.home-nav-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.8) 100%);
+  pointer-events: none; /* Allows interaction with child elements */
+  z-index: 1; /* Ensures it overlays child content */
+}
+
+.home-nav-container {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  min-height: 0;
+  background-color: blue;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.8) 100%);
+}
+.home-nav-container .home-nav-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+.home-nav-container .home-nav-category .home-nav-title {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 0.3s ease;
+}
+.home-nav-container .home-nav-category:hover .home-nav-title {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: 0.3s ease;
+}
+.home-nav-container .commercial {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/commercial%2FKupo_Mockup.jpeg?alt=media&token=97269f20-1f52-46b4-a221-ff9055856a1a");
+  background-size: cover;
+  background-position: center;
+}
+.home-nav-container .personal {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/illustrations%2FProgress.jpeg?alt=media&token=8667bc56-b3f7-46df-afaa-2b41dc8fe667");
+  background-size: cover;
+  background-position: center;
+}
+.home-nav-container .motion {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/twrosemeyer-portfolio.appspot.com/o/motion%20graphics%2FNeon%20Sign%20Sample.png?alt=media&token=47cf4a7c-5d50-436c-b4f1-d0ca122b43c2");
+  background-size: cover;
+  background-position: center;
+}
+.home-nav-container .web {
+  background-image: url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=3869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
 }
 
 footer {
@@ -665,6 +751,30 @@ iframe {
   aspect-ratio: 16/9;
   border-radius: 8px; /* Optional: Adds rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow */
+}
+
+.screen-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.08), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.04));
+  background-size: 100% 4px, 30px 100%;
+  z-index: 3;
+  animation: flicker 100ms infinite;
+}
+
+.screen-overlay:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0) 70%, rgb(0, 0, 0) 100%);
+  z-index: 2;
 }
 
 @media (max-width: 1120px) {

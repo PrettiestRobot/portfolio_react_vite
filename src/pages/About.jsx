@@ -1,14 +1,11 @@
 import self from "../assets/self_edit.png";
 import "../styles/App.css";
+import HomeNav from "../components/HomeNav";
 
 export default function About() {
   return (
-    <div className="about-container">
-      <div className="about">
-        <div className="self">
-          <img src={self} alt="An image of Thomas Rose-Meyer" />
-        </div>
-      </div>
+    <div className="about">
+      <HomeNav />
 
       <div className="gallery-block">
         <div className="block-resume">
@@ -26,16 +23,14 @@ export default function About() {
             <div className="about-block-text">
               <h2>About Me:</h2>
               <p>
-                Hi, I'm Thomas Rose-Meyer. With over 10 years of experience in
-                print graphics and learning resources being more accessible than
-                ever, now seemed like the perfect time to transition to a career
-                in web development. As a detail-oriented and design-savvy
-                individual, I am confident in my ability to create visually
-                appealing and user-friendly websites. I am a lifelong learner
-                who is always seeking to improve my skills and stay up-to-date
-                with the latest technologies in the field. I am excited to bring
-                my unique perspective and passion for web development to a new
-                role and contribute to the continued growth of the industry.
+                Hi, I'm Thomas. I'm a graphic designer, web developer and all
+                around swell guy. I've been working in the print industry for
+                10+ years and I specialize in tactile designs that emphasize
+                textures and grit. If left to my own devices I will always come
+                up with something that looks like it was pulled from an attic or
+                a someones tacky estate sale, but I'm always happy to slap some
+                helvetica on a grid and deliver designs crisp, clean and
+                eloquent designs on request.
               </p>
             </div>
           </div>

@@ -64,7 +64,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-      <div className="nav-btn-container">
+      <div className={`nav-btn-container ${currentPage === "/" ? "home" : ""}`}>
         <Link
           to="/commercial"
           id="b1"
