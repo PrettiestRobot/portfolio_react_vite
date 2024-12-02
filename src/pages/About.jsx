@@ -21,7 +21,7 @@ export default function About() {
         <div className="about-block-info-container">
           <div className="about-block-text-container">
             <div className="about-block-text">
-              <h2>About Me:</h2>
+              <h1>About Me:</h1>
               <p>
                 Hi, I'm Thomas. I'm a graphic designer, web developer and all
                 around swell guy. I've been working in the print industry for
