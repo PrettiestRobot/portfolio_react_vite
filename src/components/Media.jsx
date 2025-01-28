@@ -9,7 +9,7 @@ function Media({ data }) {
       <div className="video-container">
         <div className="media-message">
           My reel is under construction. In the meantime, please enjoy this
-          visually interesting work sample
+          curated work sample.
         </div>
         <iframe
           width="600"
